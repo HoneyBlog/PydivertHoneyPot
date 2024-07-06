@@ -6,13 +6,19 @@ import sys
 import logging
 import scapy.all as scapy
 import json
+import argparse
 
 # Load configuration from a file
 def load_config(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
 
-config = load_config('config.json')
+# Argument parsing
+parser = argparse.ArgumentParser(description='Packet Handling Honeypot Script')
+parser.add_argument('--config', type=str, default='config.json', help='Path to the configuration file')
+args = parser.parse_args()
+
+config = load_config(args.config)
 
 # Logger configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[
@@ -94,7 +100,7 @@ def honeypot_handler():
 
 # Main loop to capture and dispatch packets
 def main_loop_handler():
-    filter = "ip.DstAddr != 127.0.0.2 and (tcp.DstPort != 8000 and tcp.DstPort != 8080)"
+    filter = "ip.DstAddr == 127.0.0.2"
     try:
         with pydivert.WinDivert(filter) as w:
             logging.info("WinDivert filter set up successfully")
