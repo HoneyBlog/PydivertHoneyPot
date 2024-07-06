@@ -4,6 +4,15 @@ from queue import Queue
 import signal
 import sys
 import logging
+import scapy.all as scapy
+import json
+
+# Load configuration from a file
+def load_config(file_path):
+    with open(file_path, 'r') as file:
+        return json.load(file)
+
+config = load_config('config.json')
 
 # Logger configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[
@@ -14,18 +23,20 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Signal handler
 def signal_handler(sig, frame):
     logging.info("Signal received, stopping threads...")
+    stop_event.set()
     all_packets_queue.put(None)
     honeypot_packets_queue.put(None)
     sys.exit(0)
-    
+
 signal.signal(signal.SIGINT, signal_handler)
 
 # Define packet queues
 all_packets_queue = Queue()
 honeypot_packets_queue = Queue()
+stop_event = threading.Event()
 
 # Define malicious patterns (as bytes)
-malicious_patterns = [b"bad_pattern1", b"bad_pattern2"]  # Define actual patterns
+malicious_patterns = [bytes(pattern, 'utf-8') for pattern in config['malicious_patterns']]
 
 def is_malicious(payload):
     for pattern in malicious_patterns:
@@ -35,28 +46,23 @@ def is_malicious(payload):
 
 # Packet handler for all packets
 def all_packets_handler():
-    while True:
+    while not stop_event.is_set():
         packet = all_packets_queue.get()
         if packet is None:
             break
         try:
-            # Process all packets
-            print("All Packets Handler")
-            print(f"Source IP: {packet.src_addr}")
-            print(f"Destination IP: {packet.dst_addr}")
-            print(f"Source Port: {packet.src_port}")
-            print(f"Destination Port: {packet.dst_port}")
-            print(f"Protocol: {packet.protocol}")
-            print(f"Payload: {packet.payload}")
+            logging.info("Processing packet in All Packets Handler")
+            logging.info(f"Source IP: {packet.src_addr}, Destination IP: {packet.dst_addr}")
+            logging.info(f"Source Port: {packet.src_port}, Destination Port: {packet.dst_port}")
+            logging.info(f"Protocol: {packet.protocol}, Payload: {packet.payload}")
 
-            # Check if the packet is malicious
             if is_malicious(packet.payload):
-                print("This is a malicious packet.")
+                logging.info("This is a malicious packet.")
                 honeypot_packets_queue.put(packet)
             else:
-                print("This is a normal packet.")
-                # Send to server 8000
-                # Here, you'll need to send the packet to the server on port 8000
+                logging.info("This is a normal packet. Sending to server on port 8000")
+                tcp_packet = scapy.IP(dst=config['server_ip'])/scapy.TCP(dport=config['server_port'], sport=packet.src_port, flags='A')/packet.payload
+                scapy.send(tcp_packet)
         except Exception as e:
             logging.error(f"Error processing packet in All Packets Handler: {e}")
         finally:
@@ -64,29 +70,23 @@ def all_packets_handler():
 
 # Packet handler for honeypot packets
 def honeypot_handler():
-    while True:
+    while not stop_event.is_set():
         packet = honeypot_packets_queue.get()
         if packet is None:
             break
         try:
-            # Process honeypot-specific packets
-            print("Honeypot Handler")
-            print(f"Source IP: {packet.src_addr}")
-            print(f"Destination IP: {packet.dst_addr}")
-            print(f"Source Port: {packet.src_port}")
-            print(f"Destination Port: {packet.dst_port}")
-            print(f"Protocol: {packet.protocol}")
-            print(f"Payload: {packet.payload}")
+            logging.info("Processing packet in Honeypot Handler")
+            logging.info(f"Source IP: {packet.src_addr}, Destination IP: {packet.dst_addr}")
+            logging.info(f"Source Port: {packet.src_port}, Destination Port: {packet.dst_port}")
+            logging.info(f"Protocol: {packet.protocol}, Payload: {packet.payload}")
 
-            # Check if the packet is a TCP SYN or FIN
             if packet.tcp.syn:
-                print("This is a TCP SYN packet.")
+                logging.info("This is a TCP SYN packet.")
             if packet.tcp.fin:
-                print("This is a TCP FIN packet.")
+                logging.info("This is a TCP FIN packet.")
             
-            # Send to honeypot server 8080
-            # Here, you'll need to send the packet to the honeypot server on port 8080
-
+            tcp_packet = scapy.IP(dst=config['honeypot_ip'])/scapy.TCP(dport=config['honeypot_port'], sport=packet.src_port, flags='A')/packet.payload
+            scapy.send(tcp_packet)
         except Exception as e:
             logging.error(f"Error processing packet in Honeypot Handler: {e}")
         finally:
@@ -94,17 +94,20 @@ def honeypot_handler():
 
 # Main loop to capture and dispatch packets
 def main_loop_handler():
-    filter = "tcp.DstPort == 8000 or tcp.SrcPort == 80"
+    filter = "ip.DstAddr != 127.0.0.2 and (tcp.DstPort != 8000 and tcp.DstPort != 8080)"
     try:
         with pydivert.WinDivert(filter) as w:
+            logging.info("WinDivert filter set up successfully")
             for packet in w:
+                if stop_event.is_set():
+                    break
+                logging.info(f"Packet captured: {packet}")
                 try:
                     if packet.tcp.syn or packet.tcp.fin:
+                        logging.info("SYN or FIN packet detected")
                         w.send(packet)
-
-                    # send ACK and add to all packets queue
                     if packet.payload:
-                        logging.info(f"Payload: {packet.payload}")
+                        logging.info(f"Payload detected: {packet.payload}")
                         ack_packet = packet
                         ack_packet.tcp.ack = True
                         ack_packet.tcp.syn = False
@@ -113,8 +116,10 @@ def main_loop_handler():
                         ack_packet.tcp.rst = False
                         ack_packet.tcp.seq_num, ack_packet.tcp.ack_num = ack_packet.tcp.ack_num, ack_packet.tcp.seq_num + len(packet.payload)
                         w.send(ack_packet)
+                        logging.info("ACK packet sent")
 
-                        all_packets_queue.put(packet)                    
+                        all_packets_queue.put(packet)
+                        logging.info("Packet added to all_packets_queue")
 
                 except Exception as e:
                     logging.error(f"Error processing packet in Main Loop Handler: {e}")
