@@ -5,7 +5,17 @@ import logging
 BACKEND_URL = "http://localhost:8000"  # URL for the regular backend
 HONEYPOT_BACKEND_URL = "http://localhost:8001"  # URL for the honeypot backend
 
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("logs.txt"),
+        logging.StreamHandler()
+    ]
+)
 logger = logging.getLogger("uvicorn.error")
+
 
 async def forward_request(request: Request, backend_url: str):
     try:
