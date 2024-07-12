@@ -1,7 +1,0 @@
-2024-07-12 00:06:29,822 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/api/users "HTTP/1.1 307 Temporary Redirect"
-2024-07-12 00:06:29,849 - httpx - INFO - HTTP Request: GET http://127.0.0.1:8000/api/users/ "HTTP/1.1 200 OK"
-2024-07-12 13:19:16,935 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/api/users/login/ "HTTP/1.1 403 Forbidden"
-2024-07-12 13:43:40,110 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/api/users/login/ "HTTP/1.1 403 Forbidden"
-2024-07-12 13:56:58,812 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/api/users/login/ "HTTP/1.1 403 Forbidden"
-2024-07-12 14:01:33,378 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/api/users/login/ "HTTP/1.1 403 Forbidden"
-2024-07-12 14:04:01,766 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8000/api/users/login/ "HTTP/1.1 403 Forbidden"

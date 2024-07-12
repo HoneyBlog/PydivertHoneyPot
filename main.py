@@ -1,111 +1,103 @@
-import threading
-import asyncio
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from starlette.responses import JSONResponse
 import pydivert
-import queue
-import httpx
+import socket
 import logging
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler("logs.txt"),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger("uvicorn.error")
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-app = FastAPI()
-
-origins = ["*"]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Queue to hold packets for processing
-packet_queue = queue.Queue()
-
-@app.middleware("http")
-async def log_requests(request: Request, call_next):
-    client_host = request.client.host
-    client_port = request.client.port
-    referer = request.headers.get('referer', 'None')
-    origin = request.headers.get('origin', 'None')
-
-    logger.info(f"Incoming request from {client_host}:{client_port}, Referer: {referer}, Origin: {origin}")
-
-    response = await call_next(request)
-    return response
-
-@app.api_route("/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "PATCH"])
-async def catch_all(request: Request, path: str):
-    logger.info(f"Catch-all route received request for path: {path}")
-    return await forward_request(request, "http://127.0.0.1:8000")
-
-def main_loop():
-    with pydivert.WinDivert("tcp.DstPort == 9000") as w:
-        for packet in w:
-            if packet.tcp.syn or packet.tcp.fin:
-                # Send back SYN-ACK or FIN-ACK
-                packet.tcp.ack = True
-                w.send(packet)
-            elif packet.payload:
-                # Modify the destination port to 8000 before forwarding
-                original_dst_port = packet.dst_port
-                packet.dst_port = 8000
-                packet.recalculate_checksums()
-                packet_queue.put(packet)
-                w.send(packet)
-                logger.info(f"Packet intercepted and modified: {packet} original_dst_port: {original_dst_port}")
-
-def packet_processor():
-    while True:
-        packet = packet_queue.get()
-        if packet:
-            # For this example, simply log the packet details
-            logger.info(f"Processed packet with src_port={packet.src_port}, dst_port={packet.dst_port}, data={packet.payload}")
-            packet_queue.task_done()
-
-async def forward_request(request: Request, backend_url: str):
+# Function to forward the packet to the backend on port 8000
+def forward_packet(data):
+    backend_host = '127.0.0.1'
+    backend_port = 8000
     try:
-        request_data = await request.body()
-        headers = dict(request.headers)
-        headers["Referer"] = "http://localhost:9000"
-        headers["Origin"] = "http://localhost:9000"
-        headers.pop("host", None)  # Remove host to avoid conflicts
-        logger.info(f"Forwarding request to {backend_url}{request.url.path} with method {request.method} and data: {request_data}")
-        async with httpx.AsyncClient(follow_redirects=True) as client:
-            response = await client.request(
-                method=request.method,
-                url=f"{backend_url}{request.url.path}",
-                headers=headers,
-                content=request_data,
-                timeout=10.0
-            )
-        logger.info(f"Received response from {backend_url}: {response.status_code} - {response.text}")
-        return JSONResponse(status_code=response.status_code, content=response.json())
-    except httpx.RequestError as exc:
-        logger.error(f"An error occurred while requesting {exc.request.url!r}: {exc}")
-        logger.error(f"Exception details: {exc}")
-        raise HTTPException(status_code=500, detail="Internal server error")
-    except httpx.HTTPStatusError as exc:
-        logger.error(f"Error response {exc.response.status_code} while requesting {exc.request.url!r}: {exc}")
-        raise HTTPException(status_code=exc.response.status_code, detail=exc.response.text)
-    except httpx.TimeoutException:
-        logger.error(f"Request to {backend_url} timed out.")
-        raise HTTPException(status_code=504, detail="Request timed out")
+        # Create a socket connection to the backend
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            s.settimeout(30)  # Increase timeout duration
+            s.connect((backend_host, backend_port))
+            s.sendall(data)
+            logging.info(f"Data sent to backend: {data}")
+            response = b""
+            while True:
+                part = s.recv(4096)
+                if not part:
+                    break
+                response += part
+            logging.info(f"Packet forwarded to backend on port {backend_port} with response: {response}")
+            return response
+    except socket.timeout:
+        logging.error("Timeout occurred while forwarding packet to backend")
+        return None
+    except Exception as e:
+        logging.error(f"Failed to forward packet to backend on port {backend_port}: {e}")
+        return None
 
-if __name__ == "__main__":
-    threading.Thread(target=main_loop).start()
-    threading.Thread(target=packet_processor).start()
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=9000, reload=True)
+# Function to handle OPTIONS requests separately
+def handle_options_request(packet):
+    options_response = b"HTTP/1.1 204 No Content\r\n" \
+                       b"Access-Control-Allow-Origin: *\r\n" \
+                       b"Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\n" \
+                       b"Access-Control-Allow-Headers: Content-Type, Authorization\r\n" \
+                       b"\r\n"
+    packet.tcp.payload = options_response
+    return packet
+
+# Function to reconstruct HTTP request from packets
+def reconstruct_http_request(packets):
+    return b''.join(packet.tcp.payload for packet in packets if packet.tcp.payload)
+
+# Capture and handle packets using WinDivert
+with pydivert.WinDivert("tcp.DstPort == 8000 or tcp.SrcPort == 8000") as w:
+    logging.info("Listening on port 8000 and forwarding packets...")
+    connections = {}
+
+    for packet in w:
+        conn_key = (packet.src_addr, packet.src_port, packet.dst_addr, packet.dst_port)
+        
+        if packet.tcp.syn and not packet.tcp.ack:
+            # New connection setup
+            logging.info(f"New connection setup from {packet.src_addr}:{packet.src_port} to {packet.dst_addr}:{packet.dst_port}")
+            connections[conn_key] = []
+
+        if packet.tcp.fin or packet.tcp.rst:
+            # Connection teardown
+            if conn_key in connections:
+                logging.info(f"Connection teardown from {packet.src_addr}:{packet.src_port} to {packet.dst_addr}:{packet.dst_port}")
+                del connections[conn_key]
+
+        if packet.is_outbound and packet.tcp.payload:
+            # Ensure the connection key exists in the dictionary
+            if conn_key not in connections:
+                connections[conn_key] = []
+                
+            # Extract the payload data
+            connections[conn_key].append(packet)
+            payload = reconstruct_http_request(connections[conn_key])
+            logging.info(f"Outbound packet received with payload: {payload}")
+
+            # Check if it is an OPTIONS request
+            if b'OPTIONS' in payload:
+                logging.info(f"Handling OPTIONS request: {payload}")
+                response_packet = handle_options_request(packet)
+                w.send(response_packet)
+                continue
+
+            # Forward the packet to the backend
+            response = forward_packet(payload)
+
+            if response:
+                # Create a new packet to respond to the original packet
+                response_packet = packet
+                response_packet.tcp.payload = response
+                logging.info(f"Response received from backend: {response}")
+                w.send(response_packet)
+            else:
+                # Log and ignore the packet if forwarding fails
+                logging.warning("Ignoring packet as forwarding failed")
+        elif packet.is_inbound and packet.tcp.payload:
+            # Log inbound responses
+            logging.info(f"Inbound packet received with payload: {packet.tcp.payload}")
+            w.send(packet)
+        else:
+            # Forward non-payload packets (e.g., SYN, ACK, FIN packets)
+            w.send(packet)
+            logging.info(f"Non-payload packet forwarded: {packet}")
