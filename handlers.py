@@ -10,14 +10,18 @@ logger = logging.getLogger("uvicorn.error")
 async def forward_request(request: Request, backend_url: str):
     try:
         request_data = await request.body()
+        headers = dict(request.headers)
+        headers["Referer"] = "http://localhost:9000"
+        headers["Origin"] = "http://localhost:9000"
+        headers.pop("host", None)  # Remove host to avoid conflicts
         logger.info(f"Forwarding request to {backend_url}{request.url.path} with method {request.method} and data: {request_data}")
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(follow_redirects=True) as client:
             response = await client.request(
                 method=request.method,
                 url=f"{backend_url}{request.url.path}",
-                headers=request.headers,
+                headers=headers,
                 content=request_data,
-                timeout=10.0  # Adjust the timeout as needed
+                timeout=10.0
             )
         logger.info(f"Received response: {response.status_code} - {response.text}")
         return response
