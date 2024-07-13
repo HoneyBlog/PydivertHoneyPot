@@ -1,12 +1,26 @@
-# TO DO: check in wire shark why the honeypot server is not receiving the packets
-
 import logging
 import pydivert
-import re
+import socket
 from Attacks.Sql_Injection import check_sql_injection
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def send_to_honeypot(payload):
+    """
+    Sends payload to the honeypot server using a high-level socket connection.
+    """
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            # Connect to the honeypot server
+            s.connect(("127.0.0.1", 8001))
+            # Send the payload
+            s.sendall(payload)
+            logging.info("Payload sent to honeypot server.")
+    except socket.error as e:
+        logging.error(f"Socket error: {e}")
+    except Exception as e:
+        logging.error(f"Failed to send payload to honeypot server: {e}")
 
 def main():
     """
@@ -29,11 +43,14 @@ def main():
 
                     if check_sql_injection(payload_str):
                         logging.info("SQL injection detected. Forwarding to honeypot server.")
-                        packet.dst_addr = "127.0.0.1"
-                        packet.dst_port = 8001 
-                        logging.info("Packet destination address and port changed to honeypot server - %s:%d" % (packet.dst_addr, packet.dst_port))
-
-                w.send(packet)
+                        # Instead of modifying the packet, send the payload directly to the honeypot server
+                        send_to_honeypot(payload)
+                    else:
+                        w.send(packet)
+                else:
+                    w.send(packet)
+    except pydivert.WinDivertError as e:
+        logging.error(f"WinDivert error: {e}")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
     finally:
