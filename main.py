@@ -2,9 +2,19 @@ import logging
 import pydivert
 import socket
 from Attacks.Sql_Injection import check_sql_injection
+from collections import defaultdict
+from time import time
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Define threshold and timeframe for SYN flood detection
+SYN_FLOOD_THRESHOLD = 100  # Number of SYN packets
+SYN_FLOOD_TIMEFRAME = 1  # Timeframe in seconds
+
+# Dictionary to track SYN packets
+syn_packets = defaultdict(list)
+
 
 def send_to_honeypot(payload):
     """
@@ -22,6 +32,16 @@ def send_to_honeypot(payload):
     except Exception as e:
         logging.error(f"Failed to send payload to honeypot server: {e}")
 
+def detect_syn_flood(src_ip, src_port, timestamp):
+    syn_packets[(src_ip, src_port)].append(timestamp)
+    # Remove old entries
+    syn_packets[(src_ip, src_port)] = [t for t in syn_packets[(src_ip, src_port)] if timestamp - t < SYN_FLOOD_TIMEFRAME]
+
+    if len(syn_packets[(src_ip, src_port)]) > SYN_FLOOD_THRESHOLD:
+        return True
+    return False
+
+
 def main():
     """
     Main function to capture and process packets.
@@ -33,6 +53,14 @@ def main():
             logging.info("Listening on port 8000 and forwarding packets...")
             for packet in w:
                 payload = packet.tcp.payload
+                if packet.tcp.syn:
+                    timestamp = time()
+                    src_ip = packet.src_addr
+                    src_port = packet.src_port
+                    if detect_syn_flood(src_ip, src_port, timestamp):
+                        logging.warning("SYN flood attack detected from %s:%d. Dropping packet." % (src_ip, src_port))
+                        continue
+
                 if payload:
                     payload_str = payload.decode(errors="ignore")
                     if packet.is_outbound:
@@ -55,6 +83,7 @@ def main():
         logging.error(f"An error occurred: {e}")
     finally:
         logging.info("Stopped packet capture.")
+
 
 if __name__ == "__main__":
     main()
