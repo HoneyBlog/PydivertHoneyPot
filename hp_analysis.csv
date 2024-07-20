@@ -1,0 +1,1243 @@
+Timestamp,IP,Port,Location,Intention,Packet Payload
+7/13/2024 17:17,127.0.0.1,62265,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:22:35,127.0.0.1,62571,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:28:31,127.0.0.1,62856,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:34:50,127.0.0.1,63127,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:38:32,127.0.0.1,63277,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:38:53,127.0.0.1,63296,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:39:39,127.0.0.1,63357,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:41:42,127.0.0.1,63450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 17:51:46,127.0.0.1,64324,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 18:10:14,127.0.0.1,49984,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-13 18:41:09,127.0.0.1,55822,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5a37c7ed-3091-4fa9-b2e1-e50bb86eb7d1
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 18:44:33,127.0.0.1,55953,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 943c04f8-741b-4640-b1f2-9d0f7dd207d4
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 18:44:54,127.0.0.1,55967,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d6d02814-4457-42cd-8a38-e777c9c032f5
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 18:45:23,127.0.0.1,55982,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7953b212-9544-48b8-a20f-41398c7187d4
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 18:51:11,127.0.0.1,56087,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0910f70d-aa09-47c5-b269-d5279c1c7553
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 18:58:41,127.0.0.1,56213,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: cabceec9-0e34-4a09-b925-717fb4524a76
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:27,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:27,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:27,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:29,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:31,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:01:36,127.0.0.1,56307,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f7e3f98d-c63e-4eb8-a9df-156e2884a886
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:28,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:28,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:29,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:30,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:33,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:02:37,127.0.0.1,56340,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d941287b-95bd-4e38-a505-22fb78863e79
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:42,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:42,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:43,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:44,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:46,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:09:51,127.0.0.1,56494,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: fe721678-7bd6-4959-a4ae-b679c3c6376f
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:45,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:45,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:46,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:47,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:51,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:11:54,127.0.0.1,56563,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 0cd6155e-61e9-420a-af32-a4382e903b82
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:00,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:00,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:01,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:02,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:05,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:13:09,127.0.0.1,56603,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea5d9e2f-4a46-4c9e-93c9-9912f415ad10
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:49,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:49,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:50,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:51,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:53,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:16:58,127.0.0.1,56680,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9e48dc6d-4019-4713-880c-d3982d11361a
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:14,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:14,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:14,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:16,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:18,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:18:23,127.0.0.1,56717,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7031ba4e-6a82-4658-8d31-a22c9566f195
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:37,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:37,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:37,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:39,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:41,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:20:46,127.0.0.1,56756,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 50db1109-522b-4c23-91c8-33afbc3b8e45
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:21:52,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:21:52,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:21:53,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:21:54,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:21:56,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:22:01,127.0.0.1,56789,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d90aa40c-e582-4ab5-b001-951f84b6d9a7
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:21,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:22,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:22,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:23,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:26,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:23:31,127.0.0.1,56826,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2694cf10-0a67-405c-bc04-230bdf5364ec
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:25:55,127.0.0.1,56873,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9acb910f-6716-4613-a832-588e00130939
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:25:57,127.0.0.1,56873,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9acb910f-6716-4613-a832-588e00130939
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:25:59,127.0.0.1,56873,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9acb910f-6716-4613-a832-588e00130939
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:26:04,127.0.0.1,56873,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9acb910f-6716-4613-a832-588e00130939
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:29:08,127.0.0.1,57774,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 78e2c291-46eb-4637-889c-cb548956d328
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:29:10,127.0.0.1,57774,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 78e2c291-46eb-4637-889c-cb548956d328
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:29:12,127.0.0.1,57774,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 78e2c291-46eb-4637-889c-cb548956d328
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:35:23,127.0.0.1,58043,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71e2200a-3484-4601-98ad-0df46a84f0b2
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:35:25,127.0.0.1,58043,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71e2200a-3484-4601-98ad-0df46a84f0b2
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:35:28,127.0.0.1,58043,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71e2200a-3484-4601-98ad-0df46a84f0b2
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
+2024-07-13 19:35:33,127.0.0.1,58043,Location Unknown,SQL Injection,"POST /api/users/login HTTP/1.1
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.40.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 71e2200a-3484-4601-98ad-0df46a84f0b2
+Host: localhost:8000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 61
+
+{
+  ""username"": ""adi_levi--"",
+  ""password"": ""aaBBcc11""
+}
+"
