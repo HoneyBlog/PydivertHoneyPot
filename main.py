@@ -66,12 +66,12 @@ def send_response_to_original_sender(identifier, response):
 
 
 
-def send_to_honeypot_threaded(payload):
-    """
-    Wrapper function to send payload to the honeypot in a separate thread.
-    """
-    thread = threading.Thread(target=send_to_honeypot, args=(payload,))
-    thread.start()
+# def send_to_honeypot_threaded(payload):
+#     """
+#     Wrapper function to send payload to the honeypot in a separate thread.
+#     """
+#     thread = threading.Thread(target=send_to_honeypot, args=(payload,))
+#     thread.start()
 
         
 def listen_on_port_8000():
@@ -105,7 +105,8 @@ def listen_on_port_8000():
                         logging.info(f"connection_id: {connection_id}")
 
                         original_senders.set(connection_id, (packet.src_addr, packet.src_port))
-                        honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
+                        payload_data = packet.payload.decode(errors='ignore')  # Decode the payload to a string
+                        honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_data)
                         send_to_honeypot(payload, connection_id)
                     else:
                         w.send(packet)

@@ -19,15 +19,15 @@ class ThreadSafeDict:
                 del self.dict[key]
                 
                 
-class ThreadSafeDict:
-    def __init__(self):
-        self.dict = {}
-        self.lock = threading.Lock()
+# class ThreadSafeDict:
+#     def __init__(self):
+#         self.dict = {}
+#         self.lock = threading.Lock()
 
-    def set_item(self, key, value):
-        with self.lock:
-            self.dict[key] = value
+#     def set_item(self, key, value):
+#         with self.lock:
+#             self.dict[key] = value
 
-    def get_item(self, key):
-        with self.lock:
-            return self.dict.get(key)
+#     def get_item(self, key):
+#         with self.lock:
+#             return self.dict.get(key)
