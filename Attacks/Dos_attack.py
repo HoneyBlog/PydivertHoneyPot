@@ -7,32 +7,31 @@ SYN_FLOOD_THRESHOLD = 50  # Number of SYN packets
 SYN_FLOOD_TIMEFRAME = 5  # Timeframe in seconds
 
 syn_packets = defaultdict(list)
-blacklist = set()
 
-def is_blacklisted(ip):
-    return ip in blacklist
-
-def add_to_blacklist(ip):
-    blacklist.add(ip)
+blocked_file = "blocked_ips.txt"
+def add_ip_to_blacklist_file(ip):
+    with open(blocked_file, mode='a') as file:
+        file.write(ip + '\n')
     logging.info(f"Added {ip} to blacklist")
-    
+
+        
+def is_blacklisted(ip):
+    try:
+        with open(blocked_file, 'r') as file:
+            for line in file:
+                if ip in line.strip():
+                    return True
+        return False
+    except Exception as e:
+        logging.error(f"An error occurred while checking if IP {ip} is blocked: {e}")
+
 def block_ip(ip):
     """
-    Blocks the specified IP address using Windows Firewall via netsh.
+    Blocks the specified IP address
     """
     try:
-        add_to_blacklist(ip)  # Add IP to blacklist
-        # Use netsh to add a firewall rule
-        command = f'netsh advfirewall firewall add rule name="Block {ip}" dir=in action=block remoteip={ip}'
-        logging.info(f"Attempting to run command: {command}")
-        result = subprocess.run(command, capture_output=True, text=True, shell=True)
-        logging.info(f"Command output: {result.stdout}")
-        logging.info(f"Command error (if any): {result.stderr}")
-        if result.returncode != 0:
-            raise subprocess.CalledProcessError(result.returncode, result.args, output=result.stdout, stderr=result.stderr)
-        logging.info(f"IP {ip} has been blocked.")
-    except subprocess.CalledProcessError as e:
-        logging.error(f"Failed to block IP {ip}: {e.stderr}")
+        add_ip_to_blacklist_file(ip)
+        syn_packets.pop(ip)
     except Exception as e:
         logging.error(f"An error occurred while blocking IP {ip}: {e}")
 

@@ -83,12 +83,12 @@ def listen_on_port_8000():
                 src_ip = packet.src_addr
                 if is_blacklisted(src_ip):
                     logging.info(f"Dropping packet from blacklisted IP {src_ip}")
-                    break
+                    continue
                 
                 if packet.tcp and packet.tcp.syn:
                     if detect_syn_flood(src_ip, time()):
                         logging.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
-                        break
+                        continue
                 
                 payload = packet.tcp.payload
                 if payload:
