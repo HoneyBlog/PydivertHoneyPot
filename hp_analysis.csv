@@ -116,3 +116,66 @@ Timestamp,IP,Port,Location,Intention,Packet Payload
 2024-07-21 14:45:06,127.0.0.1,60692,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
 2024-07-21 14:45:09,127.0.0.1,60692,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
 2024-07-21 14:45:13,127.0.0.1,60692,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 14:53:45,127.0.0.1,61037,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 14:55:18,127.0.0.1,61110,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 14:57:06,127.0.0.1,61152,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:01:23,127.0.0.1,61259,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:02:35,127.0.0.1,61338,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:07:39,127.0.0.1,61477,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc1""}"
+2024-07-21 15:07:41,127.0.0.1,61477,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc1""}"
+2024-07-21 15:07:44,127.0.0.1,61477,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc1""}"
+2024-07-21 15:07:49,127.0.0.1,61477,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc1""}"
