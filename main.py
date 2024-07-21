@@ -4,13 +4,11 @@ import socket
 import threading
 from time import time
 
-from thread_safe_dict import ThreadSafeDict
 from HoneyPotAnalyze.AttackerLogger import AttackerLogger
 from Attacks.Sql_Injection import check_sql_injection
 from Attacks.Dos_attack import is_blacklisted, detect_syn_flood
 
-# Initialize the dictionary for storing original senders and the honeypot logger
-original_senders = ThreadSafeDict()
+# Initialize the honeypot logger
 honeypot_logger = AttackerLogger()
 
 # Initialize logging to console and logs.txt file
@@ -30,41 +28,24 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
-def send_to_honeypot(payload, connection_id):
-    """Send payload to the honeypot server and handle the response."""
+def forward_payload_to_honeypot_and_return_response(client_socket, payload):
+    """Forward payload to the honeypot server and return the response to the client."""
     try:
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-            sock.connect(("127.0.0.1", 8001))
-            src_ip, src_port = sock.getsockname()
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as honeypot_socket:
+            honeypot_socket.connect(("127.0.0.1", 8001))
             if isinstance(payload, str):
                 payload = payload.encode('utf-8')
-            sock.sendall(payload)
-            logging.info(f"Payload sent to honeypot from {src_ip}:{src_port}.")
-            
-            response = sock.recv(1024)
-            logging.info(f"Received response from honeypot: {response.decode('utf-8')}")
-            send_response_to_original_sender(connection_id, response)
+            honeypot_socket.sendall(payload)
+            logging.info(f"Payload sent to honeypot.")
+
+            while True:
+                response = honeypot_socket.recv(4096)
+                if not response:
+                    break
+                client_socket.sendall(response)
+                logging.info(f"Received response from honeypot and sent back to client.")
     except (socket.error, socket.timeout) as e:
-        logging.error(f"Failed to send payload to honeypot server: {e}")
-
-
-def send_response_to_original_sender(identifier, response):
-    """Send response back to the original client."""
-    try:
-        original_address = original_senders.get(identifier)
-        if not original_address:
-            logging.error(f"No original sender found for identifier: {identifier}")
-            return
-
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-            sock.connect(original_address)
-            if isinstance(response, str):
-                response = response.encode('utf-8')
-            sock.sendall(response)
-            logging.info(f"Response sent back to original sender at {original_address[0]}:{original_address[1]}.")
-    except (socket.error, socket.timeout) as e:
-        logging.error(f"Failed to send response to original sender: {e}")
-
+        logging.error(f"Failed to communicate with honeypot server: {e}")
 
 def process_packet(packet, w):
     """Process a captured packet."""
@@ -88,10 +69,11 @@ def process_packet(packet, w):
 
         if check_sql_injection(payload_str):
             logging.info("SQL injection detected. Forwarding to honeypot server.")
-            connection_id = f"{packet.src_addr}:{packet.src_port}"
-            original_senders.set(connection_id, (packet.src_addr, packet.src_port))
             honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
-            send_to_honeypot(payload, connection_id)
+            # Create a client socket to communicate with the original client
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
+                client_socket.connect((packet.src_addr, packet.src_port))
+                forward_payload_to_honeypot_and_return_response(client_socket, payload)
         else:
             w.send(packet)
     else:
