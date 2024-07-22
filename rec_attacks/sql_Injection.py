@@ -1,4 +1,8 @@
 import re
+import logging
+
+# Path to the file containing the list of blocked IPs
+blocked_file = "./files/blacklist_sql.txt"
 
 def check_sql_injection(payload):
     # Convert bytes-like object to string if necessary
@@ -31,3 +35,22 @@ def check_sql_injection(payload):
             print(f"SQL pattern matched: {pattern}")
             return True
     return False
+
+def is_blacklisted_sql(ip):
+    try:
+        with open(blocked_file, 'r') as file:
+            for line in file:
+                if ip in line.strip():
+                    return True
+        return False
+    except Exception as e:
+        logging.error(f"An error occurred while checking if IP {ip} is blocked: {e}")
+
+def add_ip_to_blacklist_file(ip):
+    with open(blocked_file, mode='a') as file:
+        # check if the IP is already in the file
+        if is_blacklisted_sql(ip):
+            logging.info(f"IP {ip} is already in the blacklist")
+            return
+        file.write(ip + '\n')
+    logging.info(f"Added {ip} to blacklist")
