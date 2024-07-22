@@ -3115,3 +3115,2169 @@ connection: close
 Invalid HTTP request received.
 2024-07-22 18:56:42,690 - INFO - Original sender found for identifier 127.0.0.1:53837: ('127.0.0.1', 53837)
 2024-07-22 18:56:42,700 - INFO - Response sent back to frontend for identifier: 127.0.0.1:53837.
+2024-07-22 18:59:58,838 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:00:02,845 - INFO - Packet captured - 127.0.0.1:54232 -> 127.0.0.1:8000
+2024-07-22 19:00:02,849 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:00:02,852 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:00:02,854 - INFO - SQL injection or sql blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:00:02,855 - INFO - Payload sent to honeypot from 127.0.0.1:54233.
+2024-07-22 19:02:45,806 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:02:51,913 - INFO - Packet captured - 127.0.0.1:54508 -> 127.0.0.1:8000
+2024-07-22 19:02:51,914 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 48
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:02:51,918 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:02:51,919 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:02:51,920 - INFO - Payload sent to honeypot from 127.0.0.1:54509.
+2024-07-22 19:03:07,565 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:03:11,808 - INFO - Packet captured - 127.0.0.1:54550 -> 127.0.0.1:8000
+2024-07-22 19:03:11,811 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 48
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:03:11,815 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:03:11,816 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:03:11,817 - INFO - Payload sent to honeypot from 127.0.0.1:54551.
+2024-07-22 19:05:24,029 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:05:28,249 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:28,251 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 48
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:05:28,256 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:28,258 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:28,259 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:28,260 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:28,261 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:28,264 - INFO - Payload sent to honeypot from 127.0.0.1:54753.
+2024-07-22 19:05:28,269 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:28 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:28,271 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:28,273 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:28,588 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:28,612 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:28,615 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:28,618 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:28,628 - INFO - Payload sent to honeypot from 127.0.0.1:54762.
+2024-07-22 19:05:28,666 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:28 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:28,697 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:28,699 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:29,189 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:29,194 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:29,203 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:29,209 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:29,213 - INFO - Payload sent to honeypot from 127.0.0.1:54776.
+2024-07-22 19:05:29,215 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:28 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:29,218 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:29,220 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:30,405 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:30,407 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:30,411 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:30,413 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:30,416 - INFO - Payload sent to honeypot from 127.0.0.1:54782.
+2024-07-22 19:05:30,419 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:30 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:30,427 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:30,429 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:32,818 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:32,842 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:32,857 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:32,860 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:32,866 - INFO - Payload sent to honeypot from 127.0.0.1:54797.
+2024-07-22 19:05:32,877 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:32 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:32,886 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:32,893 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:37,618 - INFO - Packet captured - 127.0.0.1:54752 -> 127.0.0.1:8000
+2024-07-22 19:05:37,622 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc122"}
+2024-07-22 19:05:37,625 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:37,627 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:37,630 - INFO - Payload sent to honeypot from 127.0.0.1:54814.
+2024-07-22 19:05:37,631 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:36 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:37,632 - INFO - Original sender found for identifier 127.0.0.1:54752: ('127.0.0.1', 54752)
+2024-07-22 19:05:37,638 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54752.
+2024-07-22 19:05:38,393 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:38,396 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:05:38,405 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:38,408 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:38,420 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:05:38,422 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:38,424 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:38,427 - INFO - Payload sent to honeypot from 127.0.0.1:54817.
+2024-07-22 19:05:38,429 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:37 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:38,430 - INFO - Original sender found for identifier 127.0.0.1:54756: ('127.0.0.1', 54756)
+2024-07-22 19:05:38,432 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54756.
+2024-07-22 19:05:38,752 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:38,757 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:05:38,759 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:38,767 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:38,771 - INFO - Payload sent to honeypot from 127.0.0.1:54823.
+2024-07-22 19:05:38,776 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:37 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:38,781 - INFO - Original sender found for identifier 127.0.0.1:54756: ('127.0.0.1', 54756)
+2024-07-22 19:05:38,798 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54756.
+2024-07-22 19:05:39,367 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:39,389 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:05:39,399 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:39,414 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:39,427 - INFO - Payload sent to honeypot from 127.0.0.1:54827.
+2024-07-22 19:05:39,440 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:38 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:39,447 - INFO - Original sender found for identifier 127.0.0.1:54756: ('127.0.0.1', 54756)
+2024-07-22 19:05:39,453 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54756.
+2024-07-22 19:05:40,577 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:40,709 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:05:40,717 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:40,720 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:40,729 - INFO - Payload sent to honeypot from 127.0.0.1:54832.
+2024-07-22 19:05:40,735 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:40 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:40,796 - INFO - Original sender found for identifier 127.0.0.1:54756: ('127.0.0.1', 54756)
+2024-07-22 19:05:40,813 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54756.
+2024-07-22 19:05:42,981 - INFO - Packet captured - 127.0.0.1:54756 -> 127.0.0.1:8000
+2024-07-22 19:05:42,983 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:05:42,987 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:05:42,996 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:05:43,006 - INFO - Payload sent to honeypot from 127.0.0.1:54849.
+2024-07-22 19:05:43,014 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:05:42 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:05:43,018 - INFO - Original sender found for identifier 127.0.0.1:54756: ('127.0.0.1', 54756)
+2024-07-22 19:05:43,023 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54756.
+2024-07-22 19:07:50,049 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:08:08,531 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:08,535 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:08:08,537 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,544 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55047
+2024-07-22 19:08:08,546 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:08:08,548 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,551 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55047
+2024-07-22 19:08:08,552 - INFO - Payload: OK
+2024-07-22 19:08:08,553 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,555 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:08,556 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:08:08,557 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,558 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:08,559 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:08,564 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,569 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:08:08,572 - INFO - Added 127.0.0.1 to blacklist_sql.txt
+2024-07-22 19:08:08,573 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:08,575 - INFO - Payload sent to honeypot from 127.0.0.1:55049.
+2024-07-22 19:08:08,577 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:08,580 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:08,581 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:08,902 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:08,907 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:08,911 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:08,914 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:08,920 - INFO - Payload sent to honeypot from 127.0.0.1:55053.
+2024-07-22 19:08:08,925 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:08,928 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:08,939 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:08,943 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:08,944 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:08,951 - INFO - Payload sent to honeypot from 127.0.0.1:55054.
+2024-07-22 19:08:08,954 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:08,957 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:08,959 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:09,510 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:09,514 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:09,523 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:09,532 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:09,549 - INFO - Payload sent to honeypot from 127.0.0.1:55061.
+2024-07-22 19:08:09,554 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:09,561 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:09,565 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:09,597 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:09,617 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:09,628 - INFO - Payload sent to honeypot from 127.0.0.1:55062.
+2024-07-22 19:08:09,639 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:09,640 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:09,643 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:10,725 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:10,725 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:10,726 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:10,727 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:10,728 - INFO - Payload sent to honeypot from 127.0.0.1:55067.
+2024-07-22 19:08:10,731 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:10 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:10,733 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:10,734 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:10,737 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:10,739 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:10,746 - INFO - Payload sent to honeypot from 127.0.0.1:55068.
+2024-07-22 19:08:10,748 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:10 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:10,750 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:10,751 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:13,138 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:13,139 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:13,140 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:13,141 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:13,143 - INFO - Payload sent to honeypot from 127.0.0.1:55070.
+2024-07-22 19:08:13,145 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:12 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:13,146 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:13,147 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:13,149 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:13,150 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:13,151 - INFO - Payload sent to honeypot from 127.0.0.1:55071.
+2024-07-22 19:08:13,152 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:12 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:13,157 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:13,158 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:17,944 - INFO - Packet captured - 127.0.0.1:55047 -> 127.0.0.1:8000
+2024-07-22 19:08:26,316 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:26,317 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:26,318 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:26,323 - INFO - Payload sent to honeypot from 127.0.0.1:55093.
+2024-07-22 19:08:26,325 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:25 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:26,326 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:26,331 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:26,333 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:26,334 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:26,336 - INFO - Payload sent to honeypot from 127.0.0.1:55097.
+2024-07-22 19:08:26,338 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:08:25 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:08:26,339 - INFO - Original sender found for identifier 127.0.0.1:55047: ('127.0.0.1', 55047)
+2024-07-22 19:08:26,341 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55047.
+2024-07-22 19:08:26,347 - INFO - Packet captured - 127.0.0.1:55050 -> 127.0.0.1:8000
+2024-07-22 19:08:26,348 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:08:26,349 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:26,350 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:08:26,354 - INFO - Payload sent to honeypot from 127.0.0.1:55098.
+2024-07-22 19:08:26,498 - INFO - Received response from honeypot: HTTP/1.1 500 Internal Server Error
+date: Mon, 22 Jul 2024 16:08:25 GMT
+server: uvicorn
+content-length: 21
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:08:26,500 - INFO - Original sender found for identifier 127.0.0.1:55050: ('127.0.0.1', 55050)
+2024-07-22 19:08:26,502 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55050.
+2024-07-22 19:08:26,505 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:08:26,506 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:08:26,507 - INFO - Payload sent to honeypot from 127.0.0.1:55099.
+2024-07-22 19:08:26,799 - INFO - Received response from honeypot: HTTP/1.1 500 Internal Server Error
+date: Mon, 22 Jul 2024 16:08:25 GMT
+server: uvicorn
+content-length: 21
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:08:26,801 - INFO - Original sender found for identifier 127.0.0.1:55050: ('127.0.0.1', 55050)
+2024-07-22 19:08:26,809 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55050.
+2024-07-22 19:08:31,001 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:09:00,503 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:09:08,648 - INFO - Packet captured - 127.0.0.1:55188 -> 127.0.0.1:8000
+2024-07-22 19:09:08,655 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:09:08,664 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:09:08,667 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:09:08,673 - INFO - Payload sent to honeypot from 127.0.0.1:55189.
+2024-07-22 19:11:45,494 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:11:49,296 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:49,297 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:49,299 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:49,301 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:49,302 - INFO - Payload: {"username":"adi_levi","password":"aaBBcc12"}
+2024-07-22 19:11:49,303 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:49,672 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:49,674 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:48 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:49,679 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:49,683 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:49,684 - INFO - Payload: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U","user_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}
+2024-07-22 19:11:49,685 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:51,855 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:51,886 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:51,895 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:51,903 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:51,911 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:51,919 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:51,926 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:51,928 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:51 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:51,934 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:51,952 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:51,953 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:51 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:51,957 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:51,977 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:52,006 - INFO - Payload: OK
+2024-07-22 19:11:52,011 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,019 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:52,077 - INFO - Payload: OK
+2024-07-22 19:11:52,123 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,183 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:52,255 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:52,381 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,394 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:52,413 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:52,421 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,444 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:52,453 - INFO - Payload: OK
+2024-07-22 19:11:52,470 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,477 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:52,479 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:52,497 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,552 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:52,579 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:52 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:52,588 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,606 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:52,621 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:52 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:52,659 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,696 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:52,710 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:52,726 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,798 - INFO - Packet captured - 127.0.0.1:55536 -> 127.0.0.1:8000
+2024-07-22 19:11:52,829 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:52,873 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:52,927 - INFO - Packet captured - 127.0.0.1:55537 -> 127.0.0.1:8000
+2024-07-22 19:11:52,974 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,004 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,016 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:53,028 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:52 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+OK
+2024-07-22 19:11:53,062 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,099 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:53,107 - INFO - Payload: OK
+2024-07-22 19:11:53,110 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,129 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55536
+2024-07-22 19:11:53,146 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:52 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:53,154 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,159 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:53,173 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:52 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:53,187 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,207 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:53,212 - INFO - Payload: OK
+2024-07-22 19:11:53,226 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,267 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:53,273 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,287 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,308 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:53,311 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,325 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,360 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55536
+2024-07-22 19:11:53,367 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:53,374 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,384 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:53,388 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 19:11:53,408 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,449 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:53,452 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:53,473 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,506 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:53,513 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:53,524 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,545 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:53,553 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:53,560 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,574 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:53,576 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 19:11:53,591 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,629 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:53,637 - INFO - Payload: OPTIONS /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,644 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,648 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:53,649 - INFO - Payload: OPTIONS /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,663 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,670 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:53,678 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:53,695 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,715 - INFO - Packet captured - 127.0.0.1:55537 -> 127.0.0.1:8000
+2024-07-22 19:11:53,774 - INFO - Payload: OPTIONS /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,790 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,812 - INFO - Packet captured - 127.0.0.1:55536 -> 127.0.0.1:8000
+2024-07-22 19:11:53,842 - INFO - Payload: OPTIONS /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,851 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,867 - INFO - Packet captured - 127.0.0.1:55538 -> 127.0.0.1:8000
+2024-07-22 19:11:53,889 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,907 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,918 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:53,937 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:53,944 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:53,963 - INFO - Packet captured - 127.0.0.1:55539 -> 127.0.0.1:8000
+2024-07-22 19:11:53,965 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:53,975 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,003 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:54,010 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:54,020 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,036 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55536
+2024-07-22 19:11:54,042 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:11:54,047 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,068 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,075 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,077 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,089 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:54,093 - INFO - Payload: OK
+2024-07-22 19:11:54,096 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,108 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55539
+2024-07-22 19:11:54,112 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,117 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,126 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,128 - INFO - Payload: OK
+2024-07-22 19:11:54,136 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,144 - INFO - Packet captured - 127.0.0.1:55504 -> 127.0.0.1:8000
+2024-07-22 19:11:54,144 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,155 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,159 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:54,170 - INFO - Payload: OK
+2024-07-22 19:11:54,173 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,183 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55536
+2024-07-22 19:11:54,187 - INFO - Payload: OK
+2024-07-22 19:11:54,194 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,206 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,216 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,221 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,230 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:54,233 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,247 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,256 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55539
+2024-07-22 19:11:54,259 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 19:11:54,263 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,279 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:54,280 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,288 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,295 - INFO - Packet captured - 127.0.0.1:55537 -> 127.0.0.1:8000
+2024-07-22 19:11:54,297 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,310 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,317 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,325 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,339 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,355 - INFO - Packet captured - 127.0.0.1:55539 -> 127.0.0.1:8000
+2024-07-22 19:11:54,372 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,387 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,394 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:54,405 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:53 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,413 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,424 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55504
+2024-07-22 19:11:54,429 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 19:11:54,432 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,438 - INFO - Packet captured - 127.0.0.1:55538 -> 127.0.0.1:8000
+2024-07-22 19:11:54,444 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,447 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,455 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55539
+2024-07-22 19:11:54,466 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:54 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,477 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,481 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,490 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,495 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,505 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,510 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:54 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,515 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,528 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55537
+2024-07-22 19:11:54,537 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 19:11:54,541 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,555 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55539
+2024-07-22 19:11:54,556 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 19:11:54,561 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,574 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:54,580 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,587 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,596 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,612 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,624 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,642 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,644 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:54 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,649 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,666 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,668 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,676 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,683 - INFO - Packet captured - 127.0.0.1:55538 -> 127.0.0.1:8000
+2024-07-22 19:11:54,693 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,696 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,729 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,732 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:54 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,737 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,744 - INFO - Packet captured - 127.0.0.1:55505 -> 127.0.0.1:8000
+2024-07-22 19:11:54,755 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjY4MzA5fQ.bVXDyDFBfXIzSFbM5yWpJ-MC_7JDtHGVUpu-Qo4pM4U
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:11:54,761 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,772 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55538
+2024-07-22 19:11:54,774 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,777 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,794 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,796 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:11:54 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:11:54,802 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:11:54,809 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55505
+2024-07-22 19:11:54,815 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 19:11:54,821 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:12:04,501 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:04,503 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:12:04,507 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:12:04,509 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:04,510 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:04,512 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:12:04,514 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:12:04,515 - INFO - Added 127.0.0.1 to blacklist_sql.txt
+2024-07-22 19:12:04,516 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:04,517 - INFO - Payload sent to honeypot from 127.0.0.1:55567.
+2024-07-22 19:12:04,519 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:04 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:04,520 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:04,527 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:04,843 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:04,848 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:04,850 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:04,855 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:04,860 - INFO - Payload sent to honeypot from 127.0.0.1:55574.
+2024-07-22 19:12:04,865 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:04 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:04,868 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:04,871 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:04,879 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:04,888 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:04,902 - INFO - Payload sent to honeypot from 127.0.0.1:55575.
+2024-07-22 19:12:04,905 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:04 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:04,916 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:04,918 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:05,447 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:05,617 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:05,624 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:05,634 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:05,651 - INFO - Payload sent to honeypot from 127.0.0.1:55579.
+2024-07-22 19:12:05,658 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:05 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:05,676 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:05,706 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:05,730 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:05,743 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:05,747 - INFO - Payload sent to honeypot from 127.0.0.1:55580.
+2024-07-22 19:12:05,749 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:05 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:05,752 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:05,754 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:06,653 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:06,689 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:06,693 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:06,694 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:06,705 - INFO - Payload sent to honeypot from 127.0.0.1:55589.
+2024-07-22 19:12:06,718 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:06 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:06,721 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:06,730 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:06,734 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:06,736 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:06,738 - INFO - Payload sent to honeypot from 127.0.0.1:55591.
+2024-07-22 19:12:06,741 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:06 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:06,743 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:06,747 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:09,057 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:09,078 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:09,086 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:09,095 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:09,099 - INFO - Payload sent to honeypot from 127.0.0.1:55595.
+2024-07-22 19:12:09,113 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:09,122 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:09,124 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:09,130 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:09,137 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:09,171 - INFO - Payload sent to honeypot from 127.0.0.1:55602.
+2024-07-22 19:12:09,195 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:08 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:09,229 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:09,242 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:13,865 - INFO - Packet captured - 127.0.0.1:55566 -> 127.0.0.1:8000
+2024-07-22 19:12:13,866 - INFO - Payload: {"username":"adi_levi--","password":"aaBBcc12"}
+2024-07-22 19:12:13,870 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:13,871 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:13,878 - INFO - Payload sent to honeypot from 127.0.0.1:55617.
+2024-07-22 19:12:13,880 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:12 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:13,882 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:13,884 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:13,887 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:13,887 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:13,890 - INFO - Payload sent to honeypot from 127.0.0.1:55618.
+2024-07-22 19:12:13,891 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:12:12 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:12:13,892 - INFO - Original sender found for identifier 127.0.0.1:55566: ('127.0.0.1', 55566)
+2024-07-22 19:12:13,893 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55566.
+2024-07-22 19:12:53,506 - INFO - Packet captured - 127.0.0.1:55671 -> 127.0.0.1:8000
+2024-07-22 19:12:53,511 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:12:53,517 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:12:53,518 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:12:53,519 - INFO - Payload sent to honeypot from 127.0.0.1:55672.
+2024-07-22 19:17:38,097 - INFO - Received response from honeypot: HTTP/1.1 500 Internal Server Error
+date: Mon, 22 Jul 2024 16:12:52 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 21
+connection: close
+
+
+2024-07-22 19:17:49,873 - INFO - Original sender found for identifier 127.0.0.1:55671: ('127.0.0.1', 55671)
+2024-07-22 19:17:49,883 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55671.
+2024-07-22 19:18:04,597 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:18:11,569 - INFO - Packet captured - 127.0.0.1:56312 -> 127.0.0.1:8000
+2024-07-22 19:18:11,571 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:18:11,576 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:18:11,578 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:18:11,579 - INFO - Payload sent to honeypot from 127.0.0.1:56313.
+2024-07-22 19:18:11,582 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:18:10 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:18:11,585 - INFO - Original sender found for identifier 127.0.0.1:56312: ('127.0.0.1', 56312)
+2024-07-22 19:18:11,588 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56312.
+2024-07-22 19:18:11,617 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56312
+2024-07-22 19:18:11,620 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:18:10 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:18:11,624 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:18:11,628 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:18:11,686 - INFO - Payload sent to honeypot from 127.0.0.1:56314.
+2024-07-22 19:18:11,723 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:18:10 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:18:11,730 - INFO - Original sender found for identifier 127.0.0.1:8000: ('127.0.0.1', 8000)
+2024-07-22 19:18:11,740 - INFO - Response sent back to frontend for identifier: 127.0.0.1:8000.
+2024-07-22 19:18:11,764 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56312
+2024-07-22 19:18:11,768 - INFO - Payload: OK
+2024-07-22 19:18:11,772 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:18:11,774 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:18:11,785 - INFO - Payload sent to honeypot from 127.0.0.1:56318.
+2024-07-22 19:18:11,790 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 16:18:10 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 19:18:11,802 - INFO - Original sender found for identifier 127.0.0.1:8000: ('127.0.0.1', 8000)
+2024-07-22 19:18:11,819 - INFO - Response sent back to frontend for identifier: 127.0.0.1:8000.
+2024-07-22 19:18:11,826 - INFO - Packet captured - 127.0.0.1:56312 -> 127.0.0.1:8000
+2024-07-22 19:18:11,830 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:18:11,840 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:18:11,854 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:18:11,867 - INFO - Payload sent to honeypot from 127.0.0.1:56320.
+2024-07-22 19:18:41,985 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:18:45,694 - INFO - Packet captured - 127.0.0.1:56417 -> 127.0.0.1:8000
+2024-07-22 19:18:45,695 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 19:18:45,700 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 19:18:45,703 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 19:18:45,710 - INFO - Payload sent to honeypot from 127.0.0.1:56418.
+2024-07-22 19:24:19,432 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:25:02,229 - INFO - Packet captured - 10.0.0.1:21389 -> 127.0.0.1:8000
+2024-07-22 19:25:02,232 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,239 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,250 - INFO - Packet captured - 10.0.0.1:7444 -> 127.0.0.1:8000
+2024-07-22 19:25:02,255 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,257 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,261 - INFO - Packet captured - 10.0.0.1:20373 -> 127.0.0.1:8000
+2024-07-22 19:25:02,262 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,269 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,277 - INFO - Packet captured - 10.0.0.1:46615 -> 127.0.0.1:8000
+2024-07-22 19:25:02,282 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,288 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,291 - INFO - Packet captured - 10.0.0.1:30714 -> 127.0.0.1:8000
+2024-07-22 19:25:02,292 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,298 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,304 - INFO - Packet captured - 10.0.0.1:63899 -> 127.0.0.1:8000
+2024-07-22 19:25:02,306 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,311 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,321 - INFO - Packet captured - 10.0.0.1:44003 -> 127.0.0.1:8000
+2024-07-22 19:25:02,322 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,327 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,330 - INFO - Packet captured - 10.0.0.1:1175 -> 127.0.0.1:8000
+2024-07-22 19:25:02,331 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,333 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,345 - INFO - Packet captured - 10.0.0.1:26360 -> 127.0.0.1:8000
+2024-07-22 19:25:02,347 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,349 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,359 - INFO - Packet captured - 10.0.0.1:49159 -> 127.0.0.1:8000
+2024-07-22 19:25:02,360 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,363 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,367 - INFO - Packet captured - 10.0.0.1:24227 -> 127.0.0.1:8000
+2024-07-22 19:25:02,367 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,379 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,381 - INFO - Packet captured - 10.0.0.1:64824 -> 127.0.0.1:8000
+2024-07-22 19:25:02,382 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,386 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,393 - INFO - Packet captured - 10.0.0.1:34488 -> 127.0.0.1:8000
+2024-07-22 19:25:02,394 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,396 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,404 - INFO - Packet captured - 10.0.0.1:15413 -> 127.0.0.1:8000
+2024-07-22 19:25:02,413 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,416 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,419 - INFO - Packet captured - 10.0.0.1:38988 -> 127.0.0.1:8000
+2024-07-22 19:25:02,421 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,424 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,430 - INFO - Packet captured - 10.0.0.1:27649 -> 127.0.0.1:8000
+2024-07-22 19:25:02,430 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,432 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,445 - INFO - Packet captured - 10.0.0.1:56036 -> 127.0.0.1:8000
+2024-07-22 19:25:02,446 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,449 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,457 - INFO - Packet captured - 10.0.0.1:36399 -> 127.0.0.1:8000
+2024-07-22 19:25:02,458 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,461 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,478 - INFO - Packet captured - 10.0.0.1:6172 -> 127.0.0.1:8000
+2024-07-22 19:25:02,480 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,486 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,494 - INFO - Packet captured - 10.0.0.1:34360 -> 127.0.0.1:8000
+2024-07-22 19:25:02,495 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,507 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,510 - INFO - Packet captured - 10.0.0.1:56071 -> 127.0.0.1:8000
+2024-07-22 19:25:02,517 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,522 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,524 - INFO - Packet captured - 10.0.0.1:39685 -> 127.0.0.1:8000
+2024-07-22 19:25:02,525 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,527 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,535 - INFO - Packet captured - 10.0.0.1:2335 -> 127.0.0.1:8000
+2024-07-22 19:25:02,538 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,542 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,554 - INFO - Packet captured - 10.0.0.1:45251 -> 127.0.0.1:8000
+2024-07-22 19:25:02,555 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,557 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,563 - INFO - Packet captured - 10.0.0.1:15420 -> 127.0.0.1:8000
+2024-07-22 19:25:02,564 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,566 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,577 - INFO - Packet captured - 10.0.0.1:32088 -> 127.0.0.1:8000
+2024-07-22 19:25:02,582 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,590 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,599 - INFO - Packet captured - 10.0.0.1:5681 -> 127.0.0.1:8000
+2024-07-22 19:25:02,600 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,604 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,610 - INFO - Packet captured - 10.0.0.1:45359 -> 127.0.0.1:8000
+2024-07-22 19:25:02,611 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,613 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,618 - INFO - Packet captured - 10.0.0.1:14387 -> 127.0.0.1:8000
+2024-07-22 19:25:02,620 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,627 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,630 - INFO - Packet captured - 10.0.0.1:46067 -> 127.0.0.1:8000
+2024-07-22 19:25:02,630 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,632 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,655 - INFO - Packet captured - 10.0.0.1:15274 -> 127.0.0.1:8000
+2024-07-22 19:25:02,675 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,703 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,870 - INFO - Packet captured - 10.0.0.1:1718 -> 127.0.0.1:8000
+2024-07-22 19:25:02,878 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,893 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:02,962 - INFO - Packet captured - 10.0.0.1:57319 -> 127.0.0.1:8000
+2024-07-22 19:25:02,967 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:02,973 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,003 - INFO - Packet captured - 10.0.0.1:38184 -> 127.0.0.1:8000
+2024-07-22 19:25:03,005 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,023 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,035 - INFO - Packet captured - 10.0.0.1:65060 -> 127.0.0.1:8000
+2024-07-22 19:25:03,048 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,062 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,084 - INFO - Packet captured - 10.0.0.1:26996 -> 127.0.0.1:8000
+2024-07-22 19:25:03,086 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,123 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,263 - INFO - Packet captured - 10.0.0.1:37260 -> 127.0.0.1:8000
+2024-07-22 19:25:03,274 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,288 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,372 - INFO - Packet captured - 10.0.0.1:52139 -> 127.0.0.1:8000
+2024-07-22 19:25:03,397 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,402 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,556 - INFO - Packet captured - 10.0.0.1:17574 -> 127.0.0.1:8000
+2024-07-22 19:25:03,581 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,594 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,696 - INFO - Packet captured - 10.0.0.1:64956 -> 127.0.0.1:8000
+2024-07-22 19:25:03,701 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,725 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,834 - INFO - Packet captured - 10.0.0.1:29133 -> 127.0.0.1:8000
+2024-07-22 19:25:03,843 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,866 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,895 - INFO - Packet captured - 10.0.0.1:55923 -> 127.0.0.1:8000
+2024-07-22 19:25:03,902 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,906 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,942 - INFO - Packet captured - 10.0.0.1:38629 -> 127.0.0.1:8000
+2024-07-22 19:25:03,947 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,958 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:03,979 - INFO - Packet captured - 10.0.0.1:63345 -> 127.0.0.1:8000
+2024-07-22 19:25:03,981 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:03,987 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,017 - INFO - Packet captured - 10.0.0.1:12320 -> 127.0.0.1:8000
+2024-07-22 19:25:04,019 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,028 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,053 - INFO - Packet captured - 10.0.0.1:49465 -> 127.0.0.1:8000
+2024-07-22 19:25:04,058 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,065 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,085 - INFO - Packet captured - 10.0.0.1:3239 -> 127.0.0.1:8000
+2024-07-22 19:25:04,088 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,096 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,125 - INFO - Packet captured - 10.0.0.1:11879 -> 127.0.0.1:8000
+2024-07-22 19:25:04,130 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,137 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,157 - INFO - Packet captured - 10.0.0.1:14235 -> 127.0.0.1:8000
+2024-07-22 19:25:04,161 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,167 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,200 - INFO - Packet captured - 10.0.0.1:57525 -> 127.0.0.1:8000
+2024-07-22 19:25:04,207 - INFO - Payload: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-07-22 19:25:04,210 - INFO - IP 10.0.0.1 not found in blacklist_sql.txt
+2024-07-22 19:25:04,249 - INFO - Added 10.0.0.1 to blacklist
+2024-07-22 19:25:04,260 - WARNING - SYN flood detected from 10.0.0.1. IP blocked. Packet count: 0
+2024-07-22 19:25:04,261 - WARNING - SYN flood attack detected from 10.0.0.1. Dropping packet.
+2024-07-22 19:25:04,310 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,323 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,354 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,418 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,468 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,492 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,566 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,584 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,603 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,635 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,666 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,690 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,720 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,741 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,750 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,768 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,787 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,818 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,834 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,850 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,863 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,874 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,883 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,898 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,914 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,926 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,941 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,951 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,960 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,976 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,985 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:04,998 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,014 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,026 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,038 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,049 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,059 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,070 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,082 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,091 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,103 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,112 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,118 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,127 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,138 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,151 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,160 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,175 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,181 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,194 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,204 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,212 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,219 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,233 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,244 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,252 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,265 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,276 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,286 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,302 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,318 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,333 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,344 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,351 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,365 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,375 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,381 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,395 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,406 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,414 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,423 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,434 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,442 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,456 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,467 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,477 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,485 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,502 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,516 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,528 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,544 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,552 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,564 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,574 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,581 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,587 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,603 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,614 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,620 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,634 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,646 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,654 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,669 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,677 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,684 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,695 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,710 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,717 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,725 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,737 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,750 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,761 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,779 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,795 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,814 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,829 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,843 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,857 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,870 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,881 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,894 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,913 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,922 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,937 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,950 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,967 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,978 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:05,986 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,003 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,014 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,025 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,038 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,050 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,061 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,075 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,082 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,095 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,118 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,135 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,151 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,177 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,188 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,212 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,220 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,236 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,247 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,255 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,269 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,279 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,287 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,307 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,318 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,332 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,350 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,373 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,383 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,402 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,418 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,439 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,469 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,503 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,537 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,578 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,618 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,653 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,683 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,708 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,729 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,751 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,772 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,799 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,820 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,842 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,868 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,903 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:06,945 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,177 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,179 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,181 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,184 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,187 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,194 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,201 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,204 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,208 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,211 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,214 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,216 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,219 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,223 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,231 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,235 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,238 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,241 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,246 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,248 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,253 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,254 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,258 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,264 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,269 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,272 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,278 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,281 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,288 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,308 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,320 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,335 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,347 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,355 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,372 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,386 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,403 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,415 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,423 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,445 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,454 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,471 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,484 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,502 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,515 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,527 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,545 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,566 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,579 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,592 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,611 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,620 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,637 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,648 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,658 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,671 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,681 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,693 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,706 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,716 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,733 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,740 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,751 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,768 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,782 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,790 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,813 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,824 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,845 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,890 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,900 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,906 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,934 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,947 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,955 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,969 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,982 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:07,988 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,003 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,012 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,018 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,030 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,040 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,049 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,055 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,069 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,078 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,085 - INFO - Dropping packet from blacklisted IP 10.0.0.1
+2024-07-22 19:25:08,097 - INFO - Dropping packet from blacklisted IP 10.0.0.1

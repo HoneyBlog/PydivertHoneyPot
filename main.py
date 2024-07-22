@@ -193,6 +193,7 @@ def process_packet(packet, w):
 
     if is_blacklisted(src_ip):
         logger.info(f"Dropping packet from blacklisted IP {src_ip}")
+        honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SYN Flood", "")
         return
 
     if packet.tcp and packet.tcp.syn:
@@ -206,14 +207,23 @@ def process_packet(packet, w):
         logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
         logger.info(f"Payload: {payload_str}")
 
-        if check_sql_injection(payload_str):
-            logger.info("SQL injection detected. Forwarding to honeypot server.")
-            connection_id = f"{packet.src_addr}:{packet.src_port}"
-            original_senders.set(connection_id, (packet.src_addr, packet.src_port))
-            honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
-            send_to_honeypot(payload, connection_id)
-        else:
-            w.send(packet)
+        connection_id = f"{packet.src_addr}:{packet.src_port}"
+        original_senders.set(connection_id, (packet.src_addr, packet.src_port))
+        try:
+            if blacklist_sql.is_in_list(src_ip):
+                logger.info("SQL blacklist IP detected. Forwarding to honeypot server.")
+                send_to_honeypot(payload, connection_id)
+
+            if check_sql_injection(payload_str):
+                honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
+                if not blacklist_sql.is_in_list(src_ip):
+                    blacklist_sql.add_ip_to_list(src_ip)
+                logger.info("SQL injection detected. Forwarding to honeypot server.")
+                send_to_honeypot(payload, connection_id)
+            else:
+                w.send(packet)
+        except Exception as e:
+            logger.error(f"An error occurred while processing the packet: {e}")
     else:
         w.send(packet)
 
