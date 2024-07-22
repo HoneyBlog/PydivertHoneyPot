@@ -119,7 +119,7 @@
 #     threading.Thread(target=listen_on_port_8000, daemon=True).start()
 #     socketio.run(app, host="127.0.0.1", port=8002)
 
-
+import requests
 import logging
 import pydivert
 import socket
@@ -156,22 +156,35 @@ def handle_connect():
 def handle_disconnect():
     logging.info('Client disconnected')
 
+# def send_to_honeypot(payload, connection_id):
+#     """Send payload to the honeypot server and handle the response."""
+#     try:
+#         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+#             sock.connect(("127.0.0.1", 8001))
+#             src_ip, src_port = sock.getsockname()
+#             if isinstance(payload, str):
+#                 payload = payload.encode('utf-8')
+#             sock.sendall(payload)
+#             logger.info(f"Payload sent to honeypot from {src_ip}:{src_port}.")
+            
+#             response = sock.recv(1024)
+#             logger.info(f"Received response from honeypot: {response.decode('utf-8')}")
+#             send_response_to_original_sender(connection_id, response)
+#     except (socket.error, socket.timeout) as e:
+#         logger.error(f"Failed to send payload to honeypot server: {e}")
 def send_to_honeypot(payload, connection_id):
     """Send payload to the honeypot server and handle the response."""
     try:
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-            sock.connect(("127.0.0.1", 8001))
-            src_ip, src_port = sock.getsockname()
-            if isinstance(payload, str):
-                payload = payload.encode('utf-8')
-            sock.sendall(payload)
-            logger.info(f"Payload sent to honeypot from {src_ip}:{src_port}.")
-            
-            response = sock.recv(1024)
-            logger.info(f"Received response from honeypot: {response.decode('utf-8')}")
-            send_response_to_original_sender(connection_id, response)
-    except (socket.error, socket.timeout) as e:
+        url = "http://127.0.0.1:8001/api/handle-packet"
+        headers = {'Content-Type': 'application/json'}
+        response = requests.post(url, data=payload, headers=headers)
+        logger.info(f"Received response from honeypot: {response.status_code} - {response.text}")
+        send_response_to_original_sender(connection_id, response.content)
+    except requests.RequestException as e:
         logger.error(f"Failed to send payload to honeypot server: {e}")
+
+
+
 
 def send_response_to_original_sender(identifier, response):
     """Send response back to the original client."""
@@ -187,26 +200,64 @@ def send_response_to_original_sender(identifier, response):
     except (socket.error, socket.timeout) as e:
         logger.error(f"Failed to send response to original sender: {e}")
 
+# def process_packet(packet, w):
+#     """Process a captured packet."""
+#     src_ip = packet.src_addr
+#     connection_id = f"{packet.src_addr}:{packet.src_port}"
+#     payload = packet.tcp.payload
+
+#     if is_blacklisted(src_ip):
+#         logger.info(f"Dropping packet from blacklisted IP {src_ip}")
+#         honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SYN Flood", "")
+#         return
+
+#     if packet.tcp and packet.tcp.syn:
+#         if detect_syn_flood(src_ip, time()):
+#             logger.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
+#             return
+    
+#     if blacklist_sql.is_in_list(src_ip):
+#         logger.info("SQL blacklist IP detected. Forwarding to honeypot server.")
+#         send_to_honeypot(payload, connection_id)
+
+#     if payload:
+#         payload_str = payload.decode(errors="ignore")
+#         logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
+#         logger.info(f"Payload: {payload_str}")
+
+#         original_senders.set(connection_id, (packet.src_addr, packet.src_port))
+#         try:
+#             if check_sql_injection(payload_str):
+#                 honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
+#                 if not blacklist_sql.is_in_list(src_ip):
+#                     blacklist_sql.add_ip_to_list(src_ip)
+#                 logger.info("SQL injection detected. Forwarding to honeypot server.")
+#                 send_to_honeypot(payload, connection_id)
+#             else:
+#                 w.send(packet)
+#         except Exception as e:
+#             logger.error(f"An error occurred while processing the packet: {e}")
+#     else:
+#         w.send(packet)
 def process_packet(packet, w):
     """Process a captured packet."""
     src_ip = packet.src_addr
     connection_id = f"{packet.src_addr}:{packet.src_port}"
     payload = packet.tcp.payload
 
-    if is_blacklisted(src_ip):
-        logger.info(f"Dropping packet from blacklisted IP {src_ip}")
-        honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SYN Flood", "")
-        return
-
+    # Check for SYN flood attack
     if packet.tcp and packet.tcp.syn:
         if detect_syn_flood(src_ip, time()):
             logger.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
             return
-    
+
+    # If IP is in blacklist, send payload to honeypot server
     if blacklist_sql.is_in_list(src_ip):
         logger.info("SQL blacklist IP detected. Forwarding to honeypot server.")
         send_to_honeypot(payload, connection_id)
+        return
 
+    # If payload exists, process it further
     if payload:
         payload_str = payload.decode(errors="ignore")
         logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
@@ -214,7 +265,8 @@ def process_packet(packet, w):
 
         original_senders.set(connection_id, (packet.src_addr, packet.src_port))
         try:
-            if check_sql_injection(payload_str):
+            # Check for SQL injection
+            if check_sql_injection(payload_str) or '--' in payload_str:
                 honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
                 if not blacklist_sql.is_in_list(src_ip):
                     blacklist_sql.add_ip_to_list(src_ip)
@@ -226,6 +278,12 @@ def process_packet(packet, w):
             logger.error(f"An error occurred while processing the packet: {e}")
     else:
         w.send(packet)
+
+
+
+
+
+
 
 def listen_on_port_8000():
     """Listen on port 8000 and process incoming packets."""
