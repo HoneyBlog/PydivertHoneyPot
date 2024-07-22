@@ -5,7 +5,7 @@ import re
 # Add the parent directory to the sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from Attacks.Sql_Injection import check_sql_injection
+from rec_attacks.sql_Injection import check_sql_injection
 
 # Test payloads
 test_payloads = [
