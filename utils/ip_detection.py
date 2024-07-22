@@ -5,7 +5,6 @@ class IPDetection:
     def __init__(self, ip_list):
         self.file_name=ip_list
         self.ip_list = "./files/" + ip_list
-        logger.basicConfig(level=logger.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     def is_in_list(self, ip):
         try:
