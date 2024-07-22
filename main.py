@@ -3,11 +3,17 @@ import pydivert
 import socket
 import threading
 from time import time
+from flask import Flask
+from flask_socketio import SocketIO, emit
 
 from thread_safe_dict import ThreadSafeDict
 from HoneyPotAnalyze.AttackerLogger import AttackerLogger
 from Attacks.Sql_Injection import check_sql_injection
 from Attacks.Dos_attack import is_blacklisted, detect_syn_flood
+
+# Flask and SocketIO setup
+app = Flask(__name__)
+socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket connections
 
 # Initialize the dictionary for storing original senders and the honeypot logger
 original_senders = ThreadSafeDict()
@@ -30,6 +36,14 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
+@socketio.on('connect')
+def handle_connect():
+    logging.info('Client connected')
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    logging.info('Client disconnected')
+
 def send_to_honeypot(payload, connection_id):
     """Send payload to the honeypot server and handle the response."""
     try:
@@ -49,28 +63,22 @@ def send_to_honeypot(payload, connection_id):
     except Exception as e:
         logging.error(f"Failed to send payload to honeypot server: {e}")
 
-
 def send_response_to_original_sender(identifier, response):
     """Send response back to the original client."""
     try:
         original_address = original_senders.get(identifier)
+        logging.info(f"Original sender found for identifier {identifier}: {original_address}")
         if not original_address:
             logging.error(f"No original sender found for identifier: {identifier}")
             return
-
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-            sock.connect(original_address)
-            if isinstance(response, str):
-                response = response.encode('utf-8')
-            sock.sendall(response)
-            logging.info(f"Response sent back to original sender at {original_address[0]}:{original_address[1]}.")
+        
+        socketio.emit('response', {'data': response.decode('utf-8')})
+        logging.info(f"Response sent back to frontend for identifier: {identifier}.")
     except (socket.error, socket.timeout) as e:
         logging.error(f"Failed to send response to original sender: {e}")
 
-
 def process_packet(packet, w):
     """Process a captured packet."""
-    logging.info(f"Whole packet: {packet}")
     src_ip = packet.src_addr
 
     if is_blacklisted(src_ip):
@@ -111,6 +119,5 @@ def listen_on_port_8000():
         logging.error(f"An error occurred in listen_on_port_8000: {e}")
 
 if __name__ == "__main__":
-    thread_8000 = threading.Thread(target=listen_on_port_8000, daemon=True)
-    thread_8000.start()
-    thread_8000.join()
+    threading.Thread(target=listen_on_port_8000, daemon=True).start()
+    socketio.run(app, host="127.0.0.1", port=8002)
