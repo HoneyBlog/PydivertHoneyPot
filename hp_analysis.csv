@@ -219,3 +219,444 @@ Accept-Language: en-US,en;q=0.9
 
 {""username"":""adi_levi--"",""password"":""aaBBcc12""}"
 2024-07-21 15:25:28,127.0.0.1,62036,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:43,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:43,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:44,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:45,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:47,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:29:52,127.0.0.1,62304,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:37,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:37,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:38,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:39,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:41,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:32:46,127.0.0.1,62450,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:38:42,127.0.0.1,62672,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:38:44,127.0.0.1,62672,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:38:46,127.0.0.1,62672,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:38:51,127.0.0.1,62672,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:46,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:47,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:47,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:48,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:51,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:43:56,127.0.0.1,62779,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 15:47:39,127.0.0.1,62980,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 16:38:36,127.0.0.1,51127,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:28,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:28,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:28,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:30,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:32,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:41:37,127.0.0.1,51195,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:44:41,127.0.0.1,51300,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:44:41,127.0.0.1,51300,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:44:42,127.0.0.1,51300,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:44:49,127.0.0.1,51300,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:44:52,127.0.0.1,51300,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:50:45,127.0.0.1,51473,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:52:18,127.0.0.1,51519,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:56:53,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:56:53,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:56:54,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:56:55,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:56:58,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 16:57:03,127.0.0.1,51642,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc11""}"
+2024-07-21 17:10:40,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:10:41,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:10:41,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:10:43,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:10:45,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:11:00,127.0.0.1,52142,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:40:09,127.0.0.1,53040,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:41:54,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:41:55,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:41:55,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:41:57,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:41:59,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:04,127.0.0.1,53077,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:24,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:24,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:25,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:26,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:28,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:42:33,127.0.0.1,53112,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:49:46,127.0.0.1,53529,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:51:39,127.0.0.1,53615,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:03,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:03,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:04,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:05,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:07,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:54:18,127.0.0.1,53773,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:11,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:11,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:12,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:13,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:21,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:56:21,127.0.0.1,53866,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:57:41,127.0.0.1,53942,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:57:41,127.0.0.1,53942,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:57:42,127.0.0.1,53942,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:57:43,127.0.0.1,53942,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:59:24,127.0.0.1,54034,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:59:24,127.0.0.1,54034,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:59:25,127.0.0.1,54034,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:59:26,127.0.0.1,54034,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 17:59:30,127.0.0.1,54034,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:09:38,127.0.0.1,54454,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:16,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:16,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:17,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:18,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:20,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:11:26,127.0.0.1,54500,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""ששBBבב12""}"
+2024-07-21 18:12:40,127.0.0.1,54650,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:12:40,127.0.0.1,54650,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:12:41,127.0.0.1,54650,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:12:42,127.0.0.1,54650,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:12:49,127.0.0.1,54650,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:14:57,127.0.0.1,54781,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:18:59,127.0.0.1,54898,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:20:08,127.0.0.1,54930,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:21:11,127.0.0.1,54948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:21:12,127.0.0.1,54948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:21:12,127.0.0.1,54948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:21:14,127.0.0.1,54948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:21:16,127.0.0.1,54948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:22:04,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:22:04,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:22:05,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:22:06,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:22:09,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:22:14,127.0.0.1,54986,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:25:21,127.0.0.1,55131,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:02,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:02,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:03,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:04,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:06,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:27:11,127.0.0.1,55157,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aabbcc12""}"
+2024-07-21 18:28:40,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:28:40,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:28:41,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:28:42,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:28:44,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:28:51,127.0.0.1,55256,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:03,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:03,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:04,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:05,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:07,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:30:12,127.0.0.1,55325,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:33:50,127.0.0.1,55457,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:33:51,127.0.0.1,55457,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:33:51,127.0.0.1,55457,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:33:53,127.0.0.1,55457,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:33:55,127.0.0.1,55457,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:40:56,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:40:56,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:40:57,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:40:58,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:41:00,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:41:05,127.0.0.1,55662,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:42:50,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:42:50,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:42:51,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:42:52,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:42:54,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:43:32,127.0.0.1,55726,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:21,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:21,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:22,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:23,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:25,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:45:30,127.0.0.1,55844,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:22,127.0.0.1,56007,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:25,127.0.0.1,56007,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 42
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:27,127.0.0.1,56007,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 42
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: ""Windows""
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:37,127.0.0.1,56007,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:39,127.0.0.1,56007,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:41,127.0.0.1,56007,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 18:50:46,127.0.0.1,56007,Location Unknown,SQL Injection,"{""username"":""aa+--"",""password"":""aaBBcc12""}"
+2024-07-21 19:00:01,127.0.0.1,56602,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:15:34,127.0.0.1,57177,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:15:36,127.0.0.1,57177,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:15:38,127.0.0.1,57177,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:15:43,127.0.0.1,57177,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:17:16,127.0.0.1,57276,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:17:19,127.0.0.1,57276,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:17:21,127.0.0.1,57276,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:17:26,127.0.0.1,57276,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:24,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:24,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:25,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:26,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:33,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:20:33,127.0.0.1,57452,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:21:51,127.0.0.1,57543,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:22:50,127.0.0.1,57608,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:22:51,127.0.0.1,57608,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:22:51,127.0.0.1,57608,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:22:56,127.0.0.1,57608,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:23:00,127.0.0.1,57608,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:24:46,127.0.0.1,57706,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:24:46,127.0.0.1,57706,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:24:47,127.0.0.1,57706,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:24:52,127.0.0.1,57706,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:24:55,127.0.0.1,57706,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:27:26,127.0.0.1,57798,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:27:26,127.0.0.1,57798,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:27:27,127.0.0.1,57798,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:27:28,127.0.0.1,57798,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:31:01,127.0.0.1,57948,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:31:03,127.0.0.1,57948,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:31:06,127.0.0.1,57948,Location Unknown,SQL Injection,"POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 47
+sec-ch-ua: ""Opera GX"";v=""111"", ""Chromium"";v=""125"", ""Not.A/Brand"";v=""24""
+sec-ch-ua-platform: ""Windows""
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Content-Type: application/json
+Accept: */*
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:33:30,127.0.0.1,58090,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:35:02,127.0.0.1,58143,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:06,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:06,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:07,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:08,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:13,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:36:15,127.0.0.1,58165,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aaBBcc12""}"
+2024-07-21 19:38:30,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
+2024-07-21 19:38:30,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
+2024-07-21 19:38:31,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
+2024-07-21 19:38:32,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
+2024-07-21 19:38:34,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
+2024-07-21 19:38:39,127.0.0.1,58320,Location Unknown,SQL Injection,"{""username"":""adi_levi--"",""password"":""aa""}"
