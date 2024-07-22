@@ -190,6 +190,8 @@ def send_response_to_original_sender(identifier, response):
 def process_packet(packet, w):
     """Process a captured packet."""
     src_ip = packet.src_addr
+    connection_id = f"{packet.src_addr}:{packet.src_port}"
+    payload = packet.tcp.payload
 
     if is_blacklisted(src_ip):
         logger.info(f"Dropping packet from blacklisted IP {src_ip}")
@@ -200,20 +202,18 @@ def process_packet(packet, w):
         if detect_syn_flood(src_ip, time()):
             logger.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
             return
+    
+    if blacklist_sql.is_in_list(src_ip):
+        logger.info("SQL blacklist IP detected. Forwarding to honeypot server.")
+        send_to_honeypot(payload, connection_id)
 
-    payload = packet.tcp.payload
     if payload:
         payload_str = payload.decode(errors="ignore")
         logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
         logger.info(f"Payload: {payload_str}")
 
-        connection_id = f"{packet.src_addr}:{packet.src_port}"
         original_senders.set(connection_id, (packet.src_addr, packet.src_port))
         try:
-            if blacklist_sql.is_in_list(src_ip):
-                logger.info("SQL blacklist IP detected. Forwarding to honeypot server.")
-                send_to_honeypot(payload, connection_id)
-
             if check_sql_injection(payload_str):
                 honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
                 if not blacklist_sql.is_in_list(src_ip):
@@ -240,4 +240,4 @@ def listen_on_port_8000():
 
 if __name__ == "__main__":
     threading.Thread(target=listen_on_port_8000, daemon=True).start()
-    socketio.run(app, host="127.0.0.1", port=8002)
+    socketio.run(app, host="127.0.0.2", port=8002)
