@@ -70,7 +70,7 @@ def send_response_to_original_sender(identifier, response):
             logging.error(f"No original sender found for identifier: {identifier}")
             return
         
-        socketio.emit('response', {'data': response.decode('utf-8')})
+        socketio.emit('response', {'data': response.decode('utf-8')}, broadcast=True)
         logging.info(f"Response sent back to frontend for identifier: {identifier}.")
     except (socket.error, socket.timeout) as e:
         logging.error(f"Failed to send response to original sender: {e}")
