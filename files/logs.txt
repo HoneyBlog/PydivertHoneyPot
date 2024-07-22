@@ -9410,3 +9410,2295 @@ Invalid HTTP request received.
 2024-07-22 20:06:00,858 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
 2024-07-22 20:06:00,858 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
 2024-07-22 20:06:00,860 - INFO - Payload sent to honeypot from 127.0.0.1:61904.
+2024-07-22 21:20:01,743 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 21:20:52,095 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,099 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,361 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,365 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,406 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,410 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,414 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,417 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,420 - INFO - Packet captured - 127.0.0.1:62854 -> 127.0.0.1:8000
+2024-07-22 21:20:52,420 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:20:52,428 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,499 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,499 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62854
+2024-07-22 21:20:52,501 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:20:51 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:20:52,504 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,505 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,506 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62854
+2024-07-22 21:20:52,507 - INFO - Payload: OK
+2024-07-22 21:20:52,508 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,510 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,512 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,516 - INFO - Packet captured - 127.0.0.1:62854 -> 127.0.0.1:8000
+2024-07-22 21:20:52,516 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 49
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:20:52,519 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,519 - INFO - Packet captured - 127.0.0.1:62854 -> 127.0.0.1:8000
+2024-07-22 21:20:52,520 - INFO - Payload: {"username":"adi_levi","password":"ששBBבב12"}
+2024-07-22 21:20:52,524 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,525 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,529 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,668 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,669 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,672 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,806 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,807 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,808 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,879 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,879 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62854
+2024-07-22 21:20:52,881 - INFO - Payload: HTTP/1.1 401 Unauthorized
+date: Mon, 22 Jul 2024 18:20:51 GMT
+server: uvicorn
+content-length: 41
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:20:52,885 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,887 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:52,887 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62854
+2024-07-22 21:20:52,888 - INFO - Payload: {"detail":"Invalid username or password"}
+2024-07-22 21:20:52,890 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,785 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,787 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,790 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,791 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,792 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,794 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,794 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,796 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,796 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,798 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,799 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:20:56,802 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,129 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,131 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,383 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,386 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,436 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,438 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,441 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,443 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,444 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:41,445 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:41,452 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,457 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:41,458 - INFO - Payload: {"username":"adi_levi","password":"aaBBcc12"}
+2024-07-22 21:21:41,460 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,462 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,683 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,685 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,688 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,809 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,810 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:41,812 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:40 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:41,817 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,819 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:41,819 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:41,820 - INFO - Payload: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc","user_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}
+2024-07-22 21:21:41,823 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,118 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,126 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:43,138 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,141 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,142 - INFO - Packet captured - 127.0.0.1:62918 -> 127.0.0.1:8000
+2024-07-22 21:21:43,144 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,158 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,168 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,172 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,174 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,175 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:43,178 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:21:43,212 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,221 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,224 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:43,228 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:21:43,245 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,250 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,254 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,259 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,264 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,264 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:43,266 - INFO - Payload: OK
+2024-07-22 21:21:43,269 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,272 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:43,275 - INFO - Payload: OK
+2024-07-22 21:21:43,278 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,285 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,291 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,296 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,297 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:43,300 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,307 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,314 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,321 - INFO - Packet captured - 127.0.0.1:62918 -> 127.0.0.1:8000
+2024-07-22 21:21:43,322 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,324 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,326 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,327 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,328 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,330 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:43,331 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:21:43,343 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,345 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,347 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:43,357 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:21:43,361 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,410 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,413 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,414 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:43,423 - INFO - Payload: OK
+2024-07-22 21:21:43,429 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,441 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:43,464 - INFO - Payload: OK
+2024-07-22 21:21:43,529 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,541 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,544 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:43,547 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,563 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,580 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,636 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,642 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,680 - INFO - Packet captured - 127.0.0.1:62918 -> 127.0.0.1:8000
+2024-07-22 21:21:43,700 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:43,794 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,847 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,914 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:43,924 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,077 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,132 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,198 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:44,248 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:44,277 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,305 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,310 - INFO - Packet captured - 127.0.0.1:62917 -> 127.0.0.1:8000
+2024-07-22 21:21:44,311 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:44,316 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,323 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,331 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,336 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:44,338 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:44,344 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,348 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,352 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,353 - INFO - Packet captured - 127.0.0.1:62918 -> 127.0.0.1:8000
+2024-07-22 21:21:44,355 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:44,360 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,363 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,366 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,367 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62917
+2024-07-22 21:21:44,368 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:21:44,376 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,380 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,386 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,393 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62918
+2024-07-22 21:21:44,395 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:42 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+[{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 21:21:44,408 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,412 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,412 - INFO - Packet captured - 127.0.0.1:62934 -> 127.0.0.1:8000
+2024-07-22 21:21:44,413 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:44,416 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,421 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,423 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,425 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,426 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,428 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,429 - INFO - Packet captured - 127.0.0.1:62935 -> 127.0.0.1:8000
+2024-07-22 21:21:44,432 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc2MTAxfQ.F7q34BsxJ1IARr0Si2FvBEHdRWAw4S1cbQFHGDoj8yc
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:44,441 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,455 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,462 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,482 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,493 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,502 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,514 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,519 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,522 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62934
+2024-07-22 21:21:44,528 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:44 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:44,533 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,544 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,548 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62935
+2024-07-22 21:21:44,553 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:21:44 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:44,559 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,563 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,567 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,579 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62934
+2024-07-22 21:21:44,586 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:21:44,638 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,721 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62935
+2024-07-22 21:21:44,731 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 21:21:44,746 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:44,775 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:48,645 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:48,649 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:48,830 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:48,832 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,014 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,016 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,018 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,020 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,406 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,411 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,454 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:49,455 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:54,072 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:54,073 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:54,075 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:54,077 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,476 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,476 - INFO - Packet captured - 127.0.0.1:62937 -> 127.0.0.1:8000
+2024-07-22 21:21:56,479 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 43
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:21:56,483 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,484 - INFO - Packet captured - 127.0.0.1:62937 -> 127.0.0.1:8000
+2024-07-22 21:21:56,485 - INFO - Payload: {"username":"' or 1=1","password":"aaaaaa"}
+2024-07-22 21:21:56,486 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,495 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,503 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,504 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62937
+2024-07-22 21:21:56,505 - INFO - Payload: HTTP/1.1 401 Unauthorized
+date: Mon, 22 Jul 2024 18:21:56 GMT
+server: uvicorn
+content-length: 41
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:21:56,508 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,510 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:21:56,510 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:62937
+2024-07-22 21:21:56,511 - INFO - Payload: {"detail":"Invalid username or password"}
+2024-07-22 21:21:56,517 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:01,521 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:01,522 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:08,793 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:08,795 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:29,375 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:29,376 - INFO - Packet captured - 127.0.0.1:62938 -> 127.0.0.1:8000
+2024-07-22 21:22:29,383 - INFO - Payload:  
+2024-07-22 21:22:29,386 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:45,605 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:45,607 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:45,609 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:45,611 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,507 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,509 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,759 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,764 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,815 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,816 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,817 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,819 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,819 - INFO - Packet captured - 127.0.0.1:63018 -> 127.0.0.1:8000
+2024-07-22 21:22:48,820 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 43
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:22:48,822 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,822 - INFO - Packet captured - 127.0.0.1:63018 -> 127.0.0.1:8000
+2024-07-22 21:22:48,823 - INFO - Payload: {"username":"' or 1=1","password":"aaaaaa"}
+2024-07-22 21:22:48,824 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,825 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,835 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,836 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:63018
+2024-07-22 21:22:48,836 - INFO - Payload: HTTP/1.1 401 Unauthorized
+date: Mon, 22 Jul 2024 18:22:48 GMT
+server: uvicorn
+content-length: 41
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:22:48,839 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,841 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:48,842 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:63018
+2024-07-22 21:22:48,843 - INFO - Payload: {"detail":"Invalid username or password"}
+2024-07-22 21:22:48,844 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:49,065 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:49,068 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:49,073 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:53,839 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:22:53,841 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:00,863 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:00,865 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:34,078 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:34,081 - INFO - Packet captured - 127.0.0.1:63019 -> 127.0.0.1:8000
+2024-07-22 21:23:34,083 - INFO - Payload:  
+2024-07-22 21:23:34,086 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:54,413 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:54,414 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:54,416 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:23:54,418 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,515 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,517 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,770 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,772 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,817 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,818 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,821 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,823 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,824 - INFO - Packet captured - 127.0.0.1:63161 -> 127.0.0.1:8000
+2024-07-22 21:24:33,825 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 44
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:24:33,827 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,827 - INFO - Packet captured - 127.0.0.1:63161 -> 127.0.0.1:8000
+2024-07-22 21:24:33,828 - INFO - Payload: {"username":"user","password":"' or '1'='1"}
+2024-07-22 21:24:33,830 - INFO - IP 127.0.0.1 not found in blacklist_sql.txt
+2024-07-22 21:24:33,837 - INFO - Added 127.0.0.1 to blacklist_sql.txt
+2024-07-22 21:24:33,838 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 21:24:33,840 - INFO - Payload sent to honeypot from 127.0.0.1:63162.
+2024-07-22 21:24:33,888 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 18:24:33 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 21:24:33,889 - INFO - Original sender found for identifier 127.0.0.1:63161: ('127.0.0.1', 63161)
+2024-07-22 21:24:33,894 - INFO - Response sent back to frontend for identifier: 127.0.0.1:63161.
+2024-07-22 21:24:33,899 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 21:24:33,900 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 21:24:33,902 - INFO - Payload sent to honeypot from 127.0.0.1:63163.
+2024-07-22 21:25:34,594 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 21:25:41,806 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:25:41,808 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:25:42,058 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:25:42,060 - INFO - IP ::1 not found in blacklist_sql.txt
+2024-07-22 21:25:42,119 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 21:25:42,121 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 21:25:42,133 - INFO - Payload sent to honeypot from 127.0.0.1:63265.
+2024-07-22 21:41:23,318 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 21:43:10,628 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 21:43:55,051 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:55,053 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:55,160 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:55,160 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:54 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:55,170 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:55,171 - INFO - Payload: OK
+2024-07-22 21:43:55,177 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:55,178 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:55,181 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:55,182 - INFO - Payload: {"username":"adi_levi","password":"aaBBcc12"}
+2024-07-22 21:43:55,537 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:55,537 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:54 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:55,543 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:55,543 - INFO - Payload: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78","user_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}
+2024-07-22 21:43:56,228 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:56,263 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,274 - INFO - Packet captured - 127.0.0.1:64359 -> 127.0.0.1:8000
+2024-07-22 21:43:56,275 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,287 - INFO - Packet captured - 127.0.0.1:64360 -> 127.0.0.1:8000
+2024-07-22 21:43:56,288 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,300 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:56,330 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:55 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,335 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:56,340 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:55 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,375 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,378 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:55 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,409 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:56,422 - INFO - Payload: OK
+2024-07-22 21:43:56,515 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:56,528 - INFO - Payload: OK
+2024-07-22 21:43:56,564 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,583 - INFO - Payload: OK
+2024-07-22 21:43:56,617 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:56,631 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,665 - INFO - Packet captured - 127.0.0.1:64359 -> 127.0.0.1:8000
+2024-07-22 21:43:56,672 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,697 - INFO - Packet captured - 127.0.0.1:64360 -> 127.0.0.1:8000
+2024-07-22 21:43:56,727 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,746 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:56,747 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,753 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,761 - INFO - Payload: OK
+2024-07-22 21:43:56,769 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:56,776 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:56,792 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,795 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:56,808 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:56,811 - INFO - Payload: OK
+2024-07-22 21:43:56,814 - INFO - Packet captured - 127.0.0.1:64374 -> 127.0.0.1:8000
+2024-07-22 21:43:56,814 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,828 - INFO - Packet captured - 127.0.0.1:64376 -> 127.0.0.1:8000
+2024-07-22 21:43:56,828 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,836 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:56,839 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:56,849 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,850 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 21:43:56,866 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:56,867 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:56,873 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:56,873 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:56,881 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:56,882 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:56,885 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:56,885 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 21:43:56,923 - INFO - Packet captured - 127.0.0.1:64376 -> 127.0.0.1:8000
+2024-07-22 21:43:56,925 - INFO - Payload: OPTIONS /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,935 - INFO - Packet captured - 127.0.0.1:64374 -> 127.0.0.1:8000
+2024-07-22 21:43:56,938 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,944 - INFO - Packet captured - 127.0.0.1:64360 -> 127.0.0.1:8000
+2024-07-22 21:43:56,945 - INFO - Payload: OPTIONS /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,949 - INFO - Packet captured - 127.0.0.1:64359 -> 127.0.0.1:8000
+2024-07-22 21:43:56,949 - INFO - Payload: OPTIONS /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,953 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:56,964 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,969 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:56,969 - INFO - Payload: OPTIONS /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:56,980 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:56,980 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,983 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:56,990 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:56,996 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:56,996 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,002 - INFO - Packet captured - 127.0.0.1:64377 -> 127.0.0.1:8000
+2024-07-22 21:43:57,002 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,008 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:57,009 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 21:43:57,018 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:57,022 - INFO - Payload: OK
+2024-07-22 21:43:57,032 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:57,032 - INFO - Payload: OK
+2024-07-22 21:43:57,034 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64359
+2024-07-22 21:43:57,035 - INFO - Payload: OK
+2024-07-22 21:43:57,037 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,038 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:57,039 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,040 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,046 - INFO - Packet captured - 127.0.0.1:64376 -> 127.0.0.1:8000
+2024-07-22 21:43:57,050 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,053 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:57,057 - INFO - Payload: OK
+2024-07-22 21:43:57,061 - INFO - Packet captured - 127.0.0.1:64360 -> 127.0.0.1:8000
+2024-07-22 21:43:57,069 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,094 - INFO - Packet captured - 127.0.0.1:64374 -> 127.0.0.1:8000
+2024-07-22 21:43:57,097 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,117 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:57,118 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,129 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,131 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 21:43:57,138 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:57,139 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,143 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,145 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,150 - INFO - Packet captured - 127.0.0.1:64357 -> 127.0.0.1:8000
+2024-07-22 21:43:57,151 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,181 - INFO - Packet captured - 127.0.0.1:64377 -> 127.0.0.1:8000
+2024-07-22 21:43:57,194 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,209 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64376
+2024-07-22 21:43:57,213 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 21:43:57,226 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64360
+2024-07-22 21:43:57,228 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:57,239 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:57,241 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,251 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,255 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 21:43:57,269 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,274 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,286 - INFO - Packet captured - 127.0.0.1:64374 -> 127.0.0.1:8000
+2024-07-22 21:43:57,288 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,296 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64357
+2024-07-22 21:43:57,297 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 21:43:57,309 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,309 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:57,321 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,321 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,328 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,329 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:57,335 - INFO - Packet captured - 127.0.0.1:64374 -> 127.0.0.1:8000
+2024-07-22 21:43:57,336 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,358 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,359 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,364 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64374
+2024-07-22 21:43:57,365 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:43:57,366 - INFO - Packet captured - 127.0.0.1:64377 -> 127.0.0.1:8000
+2024-07-22 21:43:57,369 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjc3NDM1fQ.Xg14vSRbQ0WjtaBhAWiBjdRbqe5Bzr5copX60NIlj78
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:43:57,389 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,391 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 18:43:56 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 21:43:57,397 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:64377
+2024-07-22 21:43:57,398 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 21:44:52,664 - INFO - Packet captured - 127.0.0.1:64436 -> 127.0.0.1:8000
+2024-07-22 21:44:52,666 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 44
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 21:44:52,676 - INFO - Packet captured - 127.0.0.1:64436 -> 127.0.0.1:8000
+2024-07-22 21:44:52,677 - INFO - Payload: {"username":"user","password":"' or '1'='1"}
+2024-07-22 21:44:52,688 - INFO - Added 127.0.0.1 to blacklist_sql.txt
+2024-07-22 21:44:52,692 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 21:44:52,694 - INFO - Payload sent to honeypot from 127.0.0.1:64437.
+2024-07-22 21:44:52,740 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 18:44:52 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 21:44:52,742 - INFO - Original sender found for identifier 127.0.0.1:64436: ('127.0.0.1', 64436)
+2024-07-22 21:44:52,746 - INFO - Response sent back to frontend for identifier: 127.0.0.1:64436.
+2024-07-22 21:44:52,753 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 21:44:52,753 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 21:44:52,755 - INFO - Payload sent to honeypot from 127.0.0.1:64438.
+2024-07-22 21:46:21,790 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 21:46:37,893 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 21:46:37,893 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 21:46:37,894 - INFO - Payload sent to honeypot from 127.0.0.1:64597.
+2024-07-22 22:10:54,499 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 22:38:43,881 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 22:45:20,127 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:20,135 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,145 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,145 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:20,151 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,159 - INFO - Payload: OK
+2024-07-22 22:45:20,166 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:20,167 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 45
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,171 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:20,171 - INFO - Payload: {"username":"adi_levi","password":"aaBBcc12"}
+2024-07-22 22:45:20,577 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,578 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:20,585 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,585 - INFO - Payload: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o","user_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}
+2024-07-22 22:45:20,728 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:20,728 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,738 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:20,738 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,746 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,746 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:20,766 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:20,770 - INFO - Payload: OPTIONS /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,786 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:20,795 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:20,830 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:20,833 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:20,846 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,848 - INFO - Payload: OK
+2024-07-22 22:45:20,857 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:20,860 - INFO - Payload: OK
+2024-07-22 22:45:20,869 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:20,870 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:20,879 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:20,880 - INFO - Payload: OK
+2024-07-22 22:45:20,885 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,889 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:19 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:20,919 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:20,959 - INFO - Payload: OK
+2024-07-22 22:45:21,394 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:21,408 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,429 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:21,448 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,482 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:21,485 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:21,526 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:21,606 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:21,642 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:21,691 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:21,732 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:21,733 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,775 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:21,776 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,782 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:21,800 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 22:45:21,817 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:21,825 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:21,841 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:21,846 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 1158
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:21,855 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:21,860 - INFO - Payload: OPTIONS /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,867 - INFO - Packet captured - 127.0.0.1:59705 -> 127.0.0.1:8000
+2024-07-22 22:45:21,870 - INFO - Payload: OPTIONS /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,877 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:21,880 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:21,883 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:21,889 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:21,900 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59705
+2024-07-22 22:45:21,902 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 22:45:21,908 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:21,914 - INFO - Payload: [{"id":"94924f37-7ce3-4e25-a948-712e2fb0b8cf","content":"Found a cozy corner at a café to dive into Think of a Number. 📖 Nothing beats a good book and a hot drink on a rainy day. #CozyReads #BookNook","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"fb6b425c-46dd-44d9-83e1-1921f3685fe0","content":"Which fictional character do you relate to the most and why? 🧙‍♂️👩‍🚀 #FictionalCharacters ","comments_number":0,"likes_number":0,"author_id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84"},{"id":"a3206b72-de54-4487-af3a-6d84cc8dde25","content":"Just started reading Omniscient Reader's Viewpoint. The first few chapters are already so captivating! ","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"},{"id":"6ce4c156-b5a7-4357-a4b6-ba5a8cce4ad4","content":"Just watched Barbie! The casting is super good!😍🥰","comments_number":0,"likes_number":0,"author_id":"11958043-2d8b-469e-a43e-809dea202e48"},{"id":"84c4ac2b-00ff-4fa6-a81c-af6b99fd5b73","content":"ayo GG 😌","comments_number":0,"likes_number":0,"author_id":"4a0224a0-144f-407f-bece-41be37d1ddd4"}]
+2024-07-22 22:45:21,924 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:21,925 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,940 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:21,955 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:21,963 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:21,963 - INFO - Payload: OK
+2024-07-22 22:45:21,977 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59705
+2024-07-22 22:45:21,978 - INFO - Payload: OK
+2024-07-22 22:45:21,981 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:21,983 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:21,994 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:21,997 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,009 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:22,010 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,015 - INFO - Packet captured - 127.0.0.1:59705 -> 127.0.0.1:8000
+2024-07-22 22:45:22,017 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,026 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,027 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:22,033 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,037 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,044 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:22,047 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 22:45:22,050 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:22,052 - INFO - Payload: GET /api/users/f3c46917-3d05-4408-b61d-0f6a2ccb1e84 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,056 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59705
+2024-07-22 22:45:22,057 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,062 - INFO - Packet captured - 127.0.0.1:59693 -> 127.0.0.1:8000
+2024-07-22 22:45:22,064 - INFO - Payload: GET /api/users/11958043-2d8b-469e-a43e-809dea202e48 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,071 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,072 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 22:45:22,078 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59705
+2024-07-22 22:45:22,079 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:22,082 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,082 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,086 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:22,086 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,089 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:22,089 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 162
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,108 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,108 - INFO - Payload: {"id":"f3c46917-3d05-4408-b61d-0f6a2ccb1e84","username":"eido123","email":"eido@gmail.com","password":"$2b$12$6mOX0QQtgZ9LSkrj.0bJc.t1TowoPI0p/wPWofd9GA03GPx0ats8O"}
+2024-07-22 22:45:22,111 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,111 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,113 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59693
+2024-07-22 22:45:22,113 - INFO - Payload: {"id":"11958043-2d8b-469e-a43e-809dea202e48","username":"noyr1","email":"noy@gmail.com","password":"$2b$12$ugJRGjsIr8iawLKudMsZ2ur6N94KXos8QK2LP89fE4NimP0A34ifS"}
+2024-07-22 22:45:22,116 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:22,116 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,120 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,123 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:22,132 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,133 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,140 - INFO - Packet captured - 127.0.0.1:59696 -> 127.0.0.1:8000
+2024-07-22 22:45:22,141 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,145 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,145 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:22,164 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,165 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:21 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,170 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59696
+2024-07-22 22:45:22,171 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:22,175 - INFO - Packet captured - 127.0.0.1:59695 -> 127.0.0.1:8000
+2024-07-22 22:45:22,175 - INFO - Payload: GET /api/users/4a0224a0-144f-407f-bece-41be37d1ddd4 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNGEwMjI0YTAtMTQ0Zi00MDdmLWJlY2UtNDFiZTM3ZDFkZGQ0IiwiZXhwIjoxNzIxNjgxMTIwfQ.eM5BNkYXeVVlMaRbbqcnTQxdohT70wK-qnOo1UxuN7o
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:22,197 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,202 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 19:45:22 GMT
+server: uvicorn
+content-length: 165
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 22:45:22,209 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:59695
+2024-07-22 22:45:22,210 - INFO - Payload: {"id":"4a0224a0-144f-407f-bece-41be37d1ddd4","username":"adi_levi","email":"adi@gmail.com","password":"$2b$12$/WGBquNODFBOdfy4zgeedu1xnXytVsAd.ZYovtypD6NpPG/x9dhnC"}
+2024-07-22 22:45:32,521 - INFO - Packet captured - 127.0.0.1:59726 -> 127.0.0.1:8000
+2024-07-22 22:45:32,521 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 44
+sec-ch-ua: "Opera GX";v="111", "Chromium";v="125", "Not.A/Brand";v="24"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2024-07-22 22:45:32,531 - INFO - Packet captured - 127.0.0.1:59726 -> 127.0.0.1:8000
+2024-07-22 22:45:32,531 - INFO - Payload: {"username":"user","password":"' or '1'='1"}
+2024-07-22 22:45:32,552 - INFO - Added 127.0.0.1 to blacklist_sql.txt
+2024-07-22 22:45:32,552 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 22:46:35,536 - INFO - Payload sent to honeypot from 127.0.0.1:59727.
+2024-07-22 22:46:40,900 - INFO - Received response from honeypot: HTTP/1.1 400 Bad Request
+date: Mon, 22 Jul 2024 19:46:32 GMT
+server: uvicorn
+content-type: text/plain; charset=utf-8
+content-length: 30
+connection: close
+
+Invalid HTTP request received.
+2024-07-22 22:46:41,693 - INFO - Original sender found for identifier 127.0.0.1:59726: ('127.0.0.1', 59726)
+2024-07-22 22:46:41,702 - INFO - Response sent back to frontend for identifier: 127.0.0.1:59726.
+2024-07-22 22:47:09,296 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 22:47:12,087 - INFO - IP 127.0.0.1 found in blacklist_sql.txt
+2024-07-22 22:47:12,087 - INFO - SQL blacklist IP detected. Forwarding to honeypot server.
+2024-07-22 22:47:25,955 - INFO - Payload sent to honeypot from 127.0.0.1:60150.

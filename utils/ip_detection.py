@@ -13,7 +13,6 @@ class IPDetection:
                     if ip in line.strip():
                         logger.info(f"IP {ip} found in {self.file_name}")
                         return True
-            logger.info(f"IP {ip} not found in {self.file_name}")
             return False
         except Exception as e:
             logger.error(f"An unexpected error occurred while checking if IP {ip} is in {self.file_name}: {e}")
