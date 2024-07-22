@@ -5,7 +5,6 @@ class IPDetection:
     def __init__(self, ip_list):
         self.file_name=ip_list
         self.ip_list = "./files/" + ip_list
-        logger.basicConfig(level=logger.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     def is_in_list(self, ip):
         try:
@@ -45,8 +44,3 @@ class IPDetection:
         except Exception as e:
             logger.error(f"An unexpected error occurred while removing IP {ip} from {self.file_name}: {e}")
 
-# Example usage:
-# detector = IPDetection('ip_list.txt')
-# detector.is_in_list('192.168.0.1')
-# detector.add_ip_to_list('192.168.0.1')
-# detector.remove_ip_from_list('192.168.0.1')

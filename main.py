@@ -14,11 +14,7 @@ from rec_attacks.dos_attack import is_blacklisted, detect_syn_flood
 from utils.logger_config import CustomLogger
 
 assetlist = IPDetection('whitelist.txt')
-honeypot_list  = IPDetection('honeypot_list.txt')
-
-# Flask and SocketIO setup
-app = Flask(__name__)
-socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket connections
+blacklist_sql = IPDetection('blacklist_sql.txt')
 
 # Initialize the dictionary for storing original senders and the honeypot logger
 original_senders = ThreadSafeDict()
@@ -26,6 +22,10 @@ honeypot_logger = AttacksLogger()
 
 # Initialize custom logger
 logger = CustomLogger().get_logger()
+
+# Flask and SocketIO setup
+app = Flask(__name__)
+socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket connections
 
 # Initialize websockets
 @socketio.on('connect')
@@ -89,12 +89,12 @@ def process_packet(packet, w):
         logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
         logger.info(f"Payload: {payload_str}")
 
-        if honeypot_list.is_in_list(src_ip) or check_sql_injection(payload_str):
+        if blacklist_sql.is_in_list(src_ip) or check_sql_injection(payload_str):
             if check_sql_injection(payload_str):
                 logger.info("SQL injection detected. Forwarding to honeypot server.")
                 honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
-                if (src_ip not in honeypot_list):
-                    honeypot_list.add_ip_to_list(src_ip)
+                if (src_ip not in blacklist_sql):
+                    blacklist_sql.add_ip_to_list(src_ip)
             else:
                 logger.info("Honepot IP detected. Forwarding to honeypot server.")
             connection_id = f"{packet.src_addr}:{packet.src_port}"

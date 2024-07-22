@@ -3,7 +3,7 @@ import random
 
 target_ip = "127.0.0.1"
 target_port = 8000
-fake_source_ip = "10.0.0.1"  # כתובת ה-IP המזויפת
+fake_source_ip = "10.0.0.1"
 
 def syn_flood(target_ip, target_port, fake_source_ip):
     ip = IP(src=fake_source_ip, dst=target_ip)
