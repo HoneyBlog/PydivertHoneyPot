@@ -3115,3 +3115,3252 @@ connection: close
 Invalid HTTP request received.
 2024-07-22 18:56:42,690 - INFO - Original sender found for identifier 127.0.0.1:53837: ('127.0.0.1', 53837)
 2024-07-22 18:56:42,700 - INFO - Response sent back to frontend for identifier: 127.0.0.1:53837.
+2024-07-22 19:00:02,837 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:00:05,429 - INFO - Packet captured - 127.0.0.1:52198 -> 127.0.0.1:8000
+2024-07-22 19:00:05,432 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:05,461 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:05,473 - INFO - Payload sent to honeypot from 127.0.0.1:52199.
+2024-07-22 19:00:06,700 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:05 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:06,707 - INFO - Original sender found for identifier 127.0.0.1:52198: ('127.0.0.1', 52198)
+2024-07-22 19:00:06,710 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52198.
+2024-07-22 19:00:06,715 - INFO - Packet captured - 127.0.0.1:52198 -> 127.0.0.1:8000
+2024-07-22 19:00:06,719 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:06,751 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:06,760 - INFO - Payload sent to honeypot from 127.0.0.1:52202.
+2024-07-22 19:00:07,891 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:05 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:07,894 - INFO - Original sender found for identifier 127.0.0.1:52198: ('127.0.0.1', 52198)
+2024-07-22 19:00:07,895 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52198.
+2024-07-22 19:00:07,898 - INFO - Packet captured - 127.0.0.1:52198 -> 127.0.0.1:8000
+2024-07-22 19:00:07,899 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:07,907 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:07,910 - INFO - Payload sent to honeypot from 127.0.0.1:52211.
+2024-07-22 19:00:08,695 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:05 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:08,703 - INFO - Original sender found for identifier 127.0.0.1:52198: ('127.0.0.1', 52198)
+2024-07-22 19:00:08,704 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52198.
+2024-07-22 19:00:09,932 - INFO - Packet captured - 127.0.0.1:52198 -> 127.0.0.1:8000
+2024-07-22 19:00:09,934 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:09,945 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:09,948 - INFO - Payload sent to honeypot from 127.0.0.1:52232.
+2024-07-22 19:00:10,390 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:09 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:10,394 - INFO - Original sender found for identifier 127.0.0.1:52198: ('127.0.0.1', 52198)
+2024-07-22 19:00:10,395 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52198.
+2024-07-22 19:00:14,734 - INFO - Packet captured - 127.0.0.1:52198 -> 127.0.0.1:8000
+2024-07-22 19:00:14,735 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:14,743 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:14,749 - INFO - Payload sent to honeypot from 127.0.0.1:52244.
+2024-07-22 19:00:15,702 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:14 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:15,706 - INFO - Original sender found for identifier 127.0.0.1:52198: ('127.0.0.1', 52198)
+2024-07-22 19:00:15,708 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52198.
+2024-07-22 19:00:27,946 - INFO - Packet captured - 127.0.0.1:52276 -> 127.0.0.1:8000
+2024-07-22 19:00:27,948 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:27,960 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:27,964 - INFO - Payload sent to honeypot from 127.0.0.1:52277.
+2024-07-22 19:00:28,754 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:27 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:28,761 - INFO - Original sender found for identifier 127.0.0.1:52276: ('127.0.0.1', 52276)
+2024-07-22 19:00:28,763 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52276.
+2024-07-22 19:00:28,768 - INFO - Packet captured - 127.0.0.1:52276 -> 127.0.0.1:8000
+2024-07-22 19:00:28,770 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:28,835 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:28,842 - INFO - Payload sent to honeypot from 127.0.0.1:52281.
+2024-07-22 19:00:29,735 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:27 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:29,742 - INFO - Original sender found for identifier 127.0.0.1:52276: ('127.0.0.1', 52276)
+2024-07-22 19:00:29,743 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52276.
+2024-07-22 19:00:30,049 - INFO - Packet captured - 127.0.0.1:52276 -> 127.0.0.1:8000
+2024-07-22 19:00:30,064 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:30,076 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:30,079 - INFO - Payload sent to honeypot from 127.0.0.1:52300.
+2024-07-22 19:00:30,634 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:27 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:30,638 - INFO - Original sender found for identifier 127.0.0.1:52276: ('127.0.0.1', 52276)
+2024-07-22 19:00:30,640 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52276.
+2024-07-22 19:00:32,457 - INFO - Packet captured - 127.0.0.1:52276 -> 127.0.0.1:8000
+2024-07-22 19:00:32,476 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:32,486 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:32,489 - INFO - Payload sent to honeypot from 127.0.0.1:52304.
+2024-07-22 19:00:33,124 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:31 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:33,129 - INFO - Original sender found for identifier 127.0.0.1:52276: ('127.0.0.1', 52276)
+2024-07-22 19:00:33,130 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52276.
+2024-07-22 19:00:37,257 - INFO - Packet captured - 127.0.0.1:52276 -> 127.0.0.1:8000
+2024-07-22 19:00:37,259 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:00:37,282 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:00:37,288 - INFO - Payload sent to honeypot from 127.0.0.1:52309.
+2024-07-22 19:00:38,187 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:00:37 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:00:38,191 - INFO - Original sender found for identifier 127.0.0.1:52276: ('127.0.0.1', 52276)
+2024-07-22 19:00:38,192 - INFO - Response sent back to frontend for identifier: 127.0.0.1:52276.
+2024-07-22 19:12:01,074 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:12:17,516 - INFO - Packet captured - 127.0.0.1:54190 -> 127.0.0.1:8000
+2024-07-22 19:12:17,519 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:12:17,715 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:54190
+2024-07-22 19:12:17,718 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:12:16 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:12:17,737 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:54190
+2024-07-22 19:12:17,739 - INFO - Payload: OK
+2024-07-22 19:12:17,747 - INFO - Packet captured - 127.0.0.1:54190 -> 127.0.0.1:8000
+2024-07-22 19:12:17,748 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:12:17,758 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:17,761 - INFO - Payload sent to honeypot from 127.0.0.1:54194.
+2024-07-22 19:12:18,758 - INFO - Received response from honeypot: b'HTTP/1.1 200 OK\r\ndate: Mon, 22 Jul 2024 16:12:17 GMT\r\nserver: uvicorn\r\ncontent-length: 232\r\ncontent-type: application/json\r\naccess-control-allow-origin: *\r\naccess-control-allow-credentials: true\r\n\r\n'
+2024-07-22 19:12:18,761 - INFO - Original sender found for identifier 127.0.0.1:54190: ('127.0.0.1', 54190)
+2024-07-22 19:12:18,763 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54190.
+2024-07-22 19:12:18,768 - INFO - Packet captured - 127.0.0.1:54190 -> 127.0.0.1:8000
+2024-07-22 19:12:18,770 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:12:18,789 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:18,794 - INFO - Payload sent to honeypot from 127.0.0.1:54197.
+2024-07-22 19:12:20,553 - INFO - Received response from honeypot: b'HTTP/1.1 200 OK\r\ndate: Mon, 22 Jul 2024 16:12:17 GMT\r\nserver: uvicorn\r\ncontent-length: 232\r\ncontent-type: application/json\r\naccess-control-allow-origin: *\r\naccess-control-allow-credentials: true\r\n\r\n'
+2024-07-22 19:12:20,565 - INFO - Original sender found for identifier 127.0.0.1:54190: ('127.0.0.1', 54190)
+2024-07-22 19:12:20,566 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54190.
+2024-07-22 19:12:22,248 - INFO - Packet captured - 127.0.0.1:54190 -> 127.0.0.1:8000
+2024-07-22 19:12:22,253 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:12:22,261 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:22,264 - INFO - Payload sent to honeypot from 127.0.0.1:54220.
+2024-07-22 19:12:22,832 - INFO - Received response from honeypot: b'HTTP/1.1 200 OK\r\ndate: Mon, 22 Jul 2024 16:12:21 GMT\r\nserver: uvicorn\r\ncontent-length: 232\r\ncontent-type: application/json\r\naccess-control-allow-origin: *\r\naccess-control-allow-credentials: true\r\n\r\n'
+2024-07-22 19:12:22,834 - INFO - Original sender found for identifier 127.0.0.1:54190: ('127.0.0.1', 54190)
+2024-07-22 19:12:22,837 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54190.
+2024-07-22 19:12:27,050 - INFO - Packet captured - 127.0.0.1:54190 -> 127.0.0.1:8000
+2024-07-22 19:12:27,051 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:12:27,061 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:12:27,064 - INFO - Payload sent to honeypot from 127.0.0.1:54248.
+2024-07-22 19:12:27,625 - INFO - Received response from honeypot: b'HTTP/1.1 200 OK\r\ndate: Mon, 22 Jul 2024 16:12:26 GMT\r\nserver: uvicorn\r\ncontent-length: 232\r\ncontent-type: application/json\r\naccess-control-allow-origin: *\r\naccess-control-allow-credentials: true\r\n\r\n'
+2024-07-22 19:12:27,626 - INFO - Original sender found for identifier 127.0.0.1:54190: ('127.0.0.1', 54190)
+2024-07-22 19:12:27,627 - INFO - Response sent back to frontend for identifier: 127.0.0.1:54190.
+2024-07-22 19:20:08,497 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:20:19,187 - INFO - Packet captured - 127.0.0.1:55276 -> 127.0.0.1:8000
+2024-07-22 19:20:19,189 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:20:19,228 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:20:19,240 - INFO - Payload sent to honeypot from 127.0.0.1:55277.
+2024-07-22 19:20:19,786 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:20:19 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:20:19,792 - ERROR - An error occurred in listen_on_port_8000: '_io.BytesIO' object has no attribute 'makefile'
+2024-07-22 19:22:14,565 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:22:22,454 - INFO - Packet captured - 127.0.0.1:55479 -> 127.0.0.1:8000
+2024-07-22 19:22:22,458 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:22:22,500 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55479
+2024-07-22 19:22:22,504 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:22:21 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:22:22,528 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55479
+2024-07-22 19:22:22,531 - INFO - Payload: OK
+2024-07-22 19:22:22,548 - INFO - Packet captured - 127.0.0.1:55479 -> 127.0.0.1:8000
+2024-07-22 19:22:22,550 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:22:22,572 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:22:22,577 - INFO - Payload sent to honeypot from 127.0.0.1:55481.
+2024-07-22 19:22:23,318 - ERROR - An error occurred in listen_on_port_8000: '_io.BytesIO' object has no attribute 'makefile'
+2024-07-22 19:23:34,313 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:23:38,463 - INFO - Packet captured - 127.0.0.1:55654 -> 127.0.0.1:8000
+2024-07-22 19:23:38,465 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:23:38,480 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:23:38,484 - INFO - Payload sent to honeypot from 127.0.0.1:55655.
+2024-07-22 19:23:39,137 - ERROR - An error occurred in listen_on_port_8000: IncompleteRead(0 bytes read, 232 more expected)
+2024-07-22 19:27:25,165 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:27:29,518 - INFO - Packet captured - 127.0.0.1:56167 -> 127.0.0.1:8000
+2024-07-22 19:27:29,519 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:27:29,529 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:27:29,533 - INFO - Payload sent to honeypot from 127.0.0.1:56168.
+2024-07-22 19:27:30,054 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:27:29 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:27:30,058 - INFO - Response content: 
+2024-07-22 19:27:30,059 - INFO - Original sender found for identifier 127.0.0.1:56167: ('127.0.0.1', 56167)
+2024-07-22 19:27:30,060 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56167.
+2024-07-22 19:27:30,063 - INFO - Packet captured - 127.0.0.1:56167 -> 127.0.0.1:8000
+2024-07-22 19:27:30,064 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:27:30,075 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:27:30,078 - INFO - Payload sent to honeypot from 127.0.0.1:56171.
+2024-07-22 19:27:31,108 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:27:29 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:27:31,112 - INFO - Response content: 
+2024-07-22 19:27:31,113 - INFO - Original sender found for identifier 127.0.0.1:56167: ('127.0.0.1', 56167)
+2024-07-22 19:27:31,114 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56167.
+2024-07-22 19:27:31,116 - INFO - Packet captured - 127.0.0.1:56167 -> 127.0.0.1:8000
+2024-07-22 19:27:31,118 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:27:31,127 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:27:31,129 - INFO - Payload sent to honeypot from 127.0.0.1:56179.
+2024-07-22 19:27:32,697 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:27:29 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:27:32,703 - INFO - Response content: 
+2024-07-22 19:27:32,705 - INFO - Original sender found for identifier 127.0.0.1:56167: ('127.0.0.1', 56167)
+2024-07-22 19:27:32,707 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56167.
+2024-07-22 19:27:34,211 - INFO - Packet captured - 127.0.0.1:56167 -> 127.0.0.1:8000
+2024-07-22 19:27:34,212 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:27:34,222 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:27:34,224 - INFO - Payload sent to honeypot from 127.0.0.1:56216.
+2024-07-22 19:27:34,701 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:27:33 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:27:34,705 - INFO - Response content: 
+2024-07-22 19:27:34,707 - INFO - Original sender found for identifier 127.0.0.1:56167: ('127.0.0.1', 56167)
+2024-07-22 19:27:34,708 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56167.
+2024-07-22 19:27:39,111 - INFO - Packet captured - 127.0.0.1:56167 -> 127.0.0.1:8000
+2024-07-22 19:27:39,112 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:27:39,121 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:27:39,124 - INFO - Payload sent to honeypot from 127.0.0.1:56230.
+2024-07-22 19:27:39,588 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:27:38 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:27:39,591 - INFO - Response content: 
+2024-07-22 19:27:39,592 - INFO - Original sender found for identifier 127.0.0.1:56167: ('127.0.0.1', 56167)
+2024-07-22 19:27:39,593 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56167.
+2024-07-22 19:32:00,815 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:32:14,603 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:14,604 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:14,614 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:14,617 - INFO - Payload sent to honeypot from 127.0.0.1:55134.
+2024-07-22 19:32:15,065 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:14 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:15,078 - INFO - Response content: 
+2024-07-22 19:32:15,081 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:15,083 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:15,088 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:32:15,099 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:15,104 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:15,145 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:15,152 - INFO - Payload sent to honeypot from 127.0.0.1:55137.
+2024-07-22 19:32:15,898 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:14 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:15,901 - INFO - Response content: 
+2024-07-22 19:32:15,902 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:15,903 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:15,904 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:32:15,907 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:15,909 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:15,916 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:15,919 - INFO - Payload sent to honeypot from 127.0.0.1:55145.
+2024-07-22 19:32:16,518 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:14 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:16,523 - INFO - Response content: 
+2024-07-22 19:32:16,524 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:16,524 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:16,525 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:32:16,705 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:16,706 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:16,716 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:16,719 - INFO - Payload sent to honeypot from 127.0.0.1:55155.
+2024-07-22 19:32:17,218 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:16 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:17,222 - INFO - Response content: 
+2024-07-22 19:32:17,222 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:17,223 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:17,224 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:32:19,106 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:19,107 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:19,122 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:19,125 - INFO - Payload sent to honeypot from 127.0.0.1:55159.
+2024-07-22 19:32:19,652 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:19 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:19,656 - INFO - Response content: 
+2024-07-22 19:32:19,656 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:19,658 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:19,659 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:32:23,908 - INFO - Packet captured - 127.0.0.1:55133 -> 127.0.0.1:8000
+2024-07-22 19:32:23,910 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:32:23,982 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:32:23,997 - INFO - Payload sent to honeypot from 127.0.0.1:55170.
+2024-07-22 19:32:24,691 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:32:23 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:32:24,697 - INFO - Response content: 
+2024-07-22 19:32:24,699 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:32:24,701 - INFO - Original sender found for identifier 127.0.0.1:55133: ('127.0.0.1', 55133)
+2024-07-22 19:32:24,703 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55133.
+2024-07-22 19:36:14,058 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:36:26,943 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:26,945 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:36:27,040 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55513
+2024-07-22 19:36:27,041 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:26 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:36:27,047 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:55513
+2024-07-22 19:36:27,048 - INFO - Payload: OK
+2024-07-22 19:36:27,051 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:27,052 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:27,060 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:27,064 - INFO - Payload sent to honeypot from 127.0.0.1:55515.
+2024-07-22 19:36:27,528 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:27,531 - INFO - Response content: 
+2024-07-22 19:36:27,532 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:27,533 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:27,533 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:36:27,538 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:27,540 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:27,557 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:27,560 - INFO - Payload sent to honeypot from 127.0.0.1:55518.
+2024-07-22 19:36:28,542 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:28,546 - INFO - Response content: 
+2024-07-22 19:36:28,548 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:28,549 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:28,551 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:36:28,553 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:28,554 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:28,563 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:28,568 - INFO - Payload sent to honeypot from 127.0.0.1:55528.
+2024-07-22 19:36:29,332 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:29,337 - INFO - Response content: 
+2024-07-22 19:36:29,338 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:29,339 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:29,340 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:36:29,343 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:29,344 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:29,353 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:29,355 - INFO - Payload sent to honeypot from 127.0.0.1:55540.
+2024-07-22 19:36:29,998 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:30,004 - INFO - Response content: 
+2024-07-22 19:36:30,004 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:30,005 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:30,007 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:36:31,566 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:31,568 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:31,578 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:31,581 - INFO - Payload sent to honeypot from 127.0.0.1:55542.
+2024-07-22 19:36:32,051 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:31 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:32,055 - INFO - Response content: 
+2024-07-22 19:36:32,055 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:32,056 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:32,057 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:36:36,368 - INFO - Packet captured - 127.0.0.1:55513 -> 127.0.0.1:8000
+2024-07-22 19:36:36,369 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:36:36,377 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:36:36,380 - INFO - Payload sent to honeypot from 127.0.0.1:55553.
+2024-07-22 19:36:37,159 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:36:35 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:36:37,163 - INFO - Response content: 
+2024-07-22 19:36:37,164 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:36:37,165 - INFO - Original sender found for identifier 127.0.0.1:55513: ('127.0.0.1', 55513)
+2024-07-22 19:36:37,167 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55513.
+2024-07-22 19:37:40,316 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:37:46,462 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:46,463 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:46,478 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:46,482 - INFO - Payload sent to honeypot from 127.0.0.1:55694.
+2024-07-22 19:37:46,975 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:46 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:46,981 - INFO - Response content: 
+2024-07-22 19:37:46,983 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:46,984 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:46,986 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:37:46,992 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:46,998 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:47,021 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:47,025 - INFO - Payload sent to honeypot from 127.0.0.1:55697.
+2024-07-22 19:37:47,677 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:46 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:47,681 - INFO - Response content: 
+2024-07-22 19:37:47,681 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:47,682 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:47,683 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:37:47,687 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:47,688 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:47,696 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:47,700 - INFO - Payload sent to honeypot from 127.0.0.1:55705.
+2024-07-22 19:37:48,581 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:46 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:48,586 - INFO - Response content: 
+2024-07-22 19:37:48,587 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:48,588 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:48,590 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:37:48,594 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:48,596 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:48,605 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:48,609 - INFO - Payload sent to honeypot from 127.0.0.1:55716.
+2024-07-22 19:37:49,077 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:46 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:49,080 - INFO - Response content: 
+2024-07-22 19:37:49,081 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:49,081 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:49,082 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:37:50,974 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:50,975 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:50,983 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:50,986 - INFO - Payload sent to honeypot from 127.0.0.1:55723.
+2024-07-22 19:37:51,578 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:50 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:51,583 - INFO - Response content: 
+2024-07-22 19:37:51,585 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:51,586 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:51,588 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:37:55,776 - INFO - Packet captured - 127.0.0.1:55693 -> 127.0.0.1:8000
+2024-07-22 19:37:55,777 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:37:55,785 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:37:55,788 - INFO - Payload sent to honeypot from 127.0.0.1:55748.
+2024-07-22 19:37:56,274 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:37:55 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:37:56,278 - INFO - Response content: 
+2024-07-22 19:37:56,279 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:37:56,280 - INFO - Original sender found for identifier 127.0.0.1:55693: ('127.0.0.1', 55693)
+2024-07-22 19:37:56,281 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55693.
+2024-07-22 19:39:20,391 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:39:27,720 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:39:39,787 - INFO - Packet captured - 127.0.0.1:55990 -> 127.0.0.1:8000
+2024-07-22 19:39:39,789 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:39:39,824 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:39:39,834 - INFO - Payload sent to honeypot from 127.0.0.1:55991.
+2024-07-22 19:39:40,696 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:39:39 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:39:40,702 - INFO - Raw response body: 
+2024-07-22 19:39:40,704 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:39:40,705 - INFO - Original sender found for identifier 127.0.0.1:55990: ('127.0.0.1', 55990)
+2024-07-22 19:39:40,707 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55990.
+2024-07-22 19:39:40,710 - INFO - Packet captured - 127.0.0.1:55990 -> 127.0.0.1:8000
+2024-07-22 19:39:40,712 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:39:40,738 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:39:40,743 - INFO - Payload sent to honeypot from 127.0.0.1:55993.
+2024-07-22 19:39:41,853 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:39:39 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:39:41,859 - INFO - Raw response body: 
+2024-07-22 19:39:41,861 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:39:41,861 - INFO - Original sender found for identifier 127.0.0.1:55990: ('127.0.0.1', 55990)
+2024-07-22 19:39:41,862 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55990.
+2024-07-22 19:39:41,889 - INFO - Packet captured - 127.0.0.1:55990 -> 127.0.0.1:8000
+2024-07-22 19:39:41,890 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:39:41,900 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:39:41,904 - INFO - Payload sent to honeypot from 127.0.0.1:56008.
+2024-07-22 19:39:42,441 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:39:39 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:39:42,445 - INFO - Raw response body: 
+2024-07-22 19:39:42,446 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:39:42,447 - INFO - Original sender found for identifier 127.0.0.1:55990: ('127.0.0.1', 55990)
+2024-07-22 19:39:42,448 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55990.
+2024-07-22 19:39:44,288 - INFO - Packet captured - 127.0.0.1:55990 -> 127.0.0.1:8000
+2024-07-22 19:39:44,289 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:39:44,297 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:39:44,299 - INFO - Payload sent to honeypot from 127.0.0.1:56023.
+2024-07-22 19:39:44,799 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:39:43 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:39:44,805 - INFO - Raw response body: 
+2024-07-22 19:39:44,807 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:39:44,809 - INFO - Original sender found for identifier 127.0.0.1:55990: ('127.0.0.1', 55990)
+2024-07-22 19:39:44,810 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55990.
+2024-07-22 19:39:49,089 - INFO - Packet captured - 127.0.0.1:55990 -> 127.0.0.1:8000
+2024-07-22 19:39:49,091 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:39:49,099 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:39:49,102 - INFO - Payload sent to honeypot from 127.0.0.1:56036.
+2024-07-22 19:39:49,780 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:39:48 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:39:49,783 - INFO - Raw response body: 
+2024-07-22 19:39:49,784 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:39:49,785 - INFO - Original sender found for identifier 127.0.0.1:55990: ('127.0.0.1', 55990)
+2024-07-22 19:39:49,786 - INFO - Response sent back to frontend for identifier: 127.0.0.1:55990.
+2024-07-22 19:46:10,215 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:46:26,801 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:26,805 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:26,834 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:26,843 - INFO - Payload sent to honeypot from 127.0.0.1:56444.
+2024-07-22 19:46:27,512 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:27,519 - INFO - Raw response body: 
+2024-07-22 19:46:27,520 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:27,525 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:27,526 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:27,528 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:46:27,533 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:27,537 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:27,559 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:27,566 - INFO - Payload sent to honeypot from 127.0.0.1:56446.
+2024-07-22 19:46:28,616 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:28,622 - INFO - Raw response body: 
+2024-07-22 19:46:28,622 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:28,633 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:28,635 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:28,637 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:46:28,642 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:28,644 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:28,659 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:28,664 - INFO - Payload sent to honeypot from 127.0.0.1:56460.
+2024-07-22 19:46:29,169 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:29,173 - INFO - Raw response body: 
+2024-07-22 19:46:29,174 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:29,177 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:29,178 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:29,179 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:46:29,182 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:29,183 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:29,191 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:29,194 - INFO - Payload sent to honeypot from 127.0.0.1:56466.
+2024-07-22 19:46:30,589 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:30,596 - INFO - Raw response body: 
+2024-07-22 19:46:30,597 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:26 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:30,601 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:30,603 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:30,604 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:46:31,300 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:31,301 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:31,312 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:31,314 - INFO - Payload sent to honeypot from 127.0.0.1:56480.
+2024-07-22 19:46:31,912 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:30 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:31,916 - INFO - Raw response body: 
+2024-07-22 19:46:31,916 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:30 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:31,919 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:31,920 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:31,921 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:46:36,101 - INFO - Packet captured - 127.0.0.1:56443 -> 127.0.0.1:8000
+2024-07-22 19:46:36,103 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:46:36,117 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:46:36,119 - INFO - Payload sent to honeypot from 127.0.0.1:56497.
+2024-07-22 19:46:37,752 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:35 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:46:37,761 - INFO - Raw response body: 
+2024-07-22 19:46:37,766 - INFO - Raw response headers: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:46:35 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+2024-07-22 19:46:37,774 - ERROR - Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2024-07-22 19:46:37,778 - INFO - Original sender found for identifier 127.0.0.1:56443: ('127.0.0.1', 56443)
+2024-07-22 19:46:37,781 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56443.
+2024-07-22 19:47:59,290 - INFO - Listening on port 8000 and forwarding packets...
+2024-07-22 19:48:10,815 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:10,817 - INFO - Payload: OPTIONS /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:48:10,921 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56667
+2024-07-22 19:48:10,923 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:10 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: content-type
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:48:10,933 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56667
+2024-07-22 19:48:10,935 - INFO - Payload: OK
+2024-07-22 19:48:10,943 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:10,944 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:48:10,956 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:48:10,961 - INFO - Payload sent to honeypot from 127.0.0.1:56669.
+2024-07-22 19:48:11,764 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:10 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:48:11,769 - INFO - Original sender found for identifier 127.0.0.1:56667: ('127.0.0.1', 56667)
+2024-07-22 19:48:11,772 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56667.
+2024-07-22 19:48:11,777 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:11,778 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:48:11,827 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:48:11,834 - INFO - Payload sent to honeypot from 127.0.0.1:56672.
+2024-07-22 19:48:12,905 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:10 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:48:12,913 - INFO - Original sender found for identifier 127.0.0.1:56667: ('127.0.0.1', 56667)
+2024-07-22 19:48:12,914 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56667.
+2024-07-22 19:48:13,051 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:13,052 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:48:13,060 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:48:13,064 - INFO - Payload sent to honeypot from 127.0.0.1:56689.
+2024-07-22 19:48:13,584 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:12 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:48:13,587 - INFO - Original sender found for identifier 127.0.0.1:56667: ('127.0.0.1', 56667)
+2024-07-22 19:48:13,589 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56667.
+2024-07-22 19:48:15,451 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:15,452 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:48:15,466 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:48:15,470 - INFO - Payload sent to honeypot from 127.0.0.1:56696.
+2024-07-22 19:48:16,243 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:15 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:48:16,247 - INFO - Original sender found for identifier 127.0.0.1:56667: ('127.0.0.1', 56667)
+2024-07-22 19:48:16,248 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56667.
+2024-07-22 19:48:20,251 - INFO - Packet captured - 127.0.0.1:56667 -> 127.0.0.1:8000
+2024-07-22 19:48:20,252 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:48:20,266 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:48:20,270 - INFO - Payload sent to honeypot from 127.0.0.1:56701.
+2024-07-22 19:48:20,967 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:48:19 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:48:20,969 - INFO - Original sender found for identifier 127.0.0.1:56667: ('127.0.0.1', 56667)
+2024-07-22 19:48:20,970 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56667.
+2024-07-22 19:49:44,267 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:44,271 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:44,295 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:44,306 - INFO - Payload sent to honeypot from 127.0.0.1:56912.
+2024-07-22 19:49:44,982 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:43 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:44,994 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:44,998 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:49:45,011 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:45,018 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:45,066 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:45,076 - INFO - Payload sent to honeypot from 127.0.0.1:56915.
+2024-07-22 19:49:45,850 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:43 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:45,854 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:45,856 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:49:45,862 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:45,864 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:45,875 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:45,880 - INFO - Payload sent to honeypot from 127.0.0.1:56925.
+2024-07-22 19:49:46,480 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:45 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:46,485 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:46,487 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:49:46,495 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:46,496 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:46,510 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:46,512 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:46,525 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:46,529 - INFO - Payload sent to honeypot from 127.0.0.1:56933.
+2024-07-22 19:49:47,191 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:45 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,197 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:47,198 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:49:47,202 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,203 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:45 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+OK
+2024-07-22 19:49:47,215 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:47,217 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,233 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:47,234 - INFO - Payload: OPTIONS /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,254 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,256 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:49:47,267 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,268 - INFO - Payload: OK
+2024-07-22 19:49:47,272 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:47,273 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,483 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,484 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 619
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,489 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,490 - INFO - Payload: [{"id":"d1688d63-f9fb-4002-bd9a-9a2cdbe04200","content":"string 1","comments_number":3,"likes_number":5,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"e0b78c64-3168-498f-beb0-8cf41841ee4c","content":"string 2","comments_number":4,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"d95948e5-7770-43f0-b518-8b985e75120f","content":"string 3","comments_number":2,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"24bda0fa-1906-4dfe-b45f-0aab23c2a76f","content":"test 1","comments_number":0,"likes_number":0,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"}]
+2024-07-22 19:49:47,494 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:47,495 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,508 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:47,510 - INFO - Payload: OPTIONS /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,534 - INFO - Packet captured - 127.0.0.1:56938 -> 127.0.0.1:8000
+2024-07-22 19:49:47,536 - INFO - Payload: OPTIONS /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,569 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,591 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:49:47,632 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,633 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 619
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,642 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,646 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:49:47,659 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,660 - INFO - Payload: OK
+2024-07-22 19:49:47,664 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,665 - INFO - Payload: [{"id":"d1688d63-f9fb-4002-bd9a-9a2cdbe04200","content":"string 1","comments_number":3,"likes_number":5,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"e0b78c64-3168-498f-beb0-8cf41841ee4c","content":"string 2","comments_number":4,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"d95948e5-7770-43f0-b518-8b985e75120f","content":"string 3","comments_number":2,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"24bda0fa-1906-4dfe-b45f-0aab23c2a76f","content":"test 1","comments_number":0,"likes_number":0,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"}]
+2024-07-22 19:49:47,669 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,670 - INFO - Payload: OK
+2024-07-22 19:49:47,674 - INFO - Packet captured - 127.0.0.1:56913 -> 127.0.0.1:8000
+2024-07-22 19:49:47,675 - INFO - Payload: OPTIONS /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,686 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:47,687 - INFO - Payload: OPTIONS /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,700 - INFO - Packet captured - 127.0.0.1:56938 -> 127.0.0.1:8000
+2024-07-22 19:49:47,701 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,712 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,714 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:49:47,725 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,726 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+vary: Origin
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+access-control-max-age: 600
+access-control-allow-credentials: true
+access-control-allow-origin: http://localhost:5173
+access-control-allow-headers: authorization
+content-length: 2
+content-type: text/plain; charset=utf-8
+
+
+2024-07-22 19:49:47,738 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56913
+2024-07-22 19:49:47,740 - INFO - Payload: OK
+2024-07-22 19:49:47,742 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,746 - INFO - Payload: OK
+2024-07-22 19:49:47,762 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,763 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,770 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,771 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:47,774 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:47,775 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,799 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,800 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,808 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,809 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:47,818 - INFO - Packet captured - 127.0.0.1:56938 -> 127.0.0.1:8000
+2024-07-22 19:49:47,820 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,842 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,843 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,850 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,852 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:47,854 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:47,855 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,955 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,956 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:46 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:47,962 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:47,963 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:47,966 - INFO - Packet captured - 127.0.0.1:56938 -> 127.0.0.1:8000
+2024-07-22 19:49:47,967 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:47,997 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:47,998 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:47 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:48,004 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:48,005 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:48,008 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:48,009 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:48,031 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:48,032 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:47 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:48,038 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:48,040 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:48,042 - INFO - Packet captured - 127.0.0.1:56938 -> 127.0.0.1:8000
+2024-07-22 19:49:48,044 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:48,072 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:48,073 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:47 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:48,086 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56938
+2024-07-22 19:49:48,088 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:48,091 - INFO - Packet captured - 127.0.0.1:56932 -> 127.0.0.1:8000
+2024-07-22 19:49:48,092 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:49:48,122 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:48,123 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:47 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:48,131 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56932
+2024-07-22 19:49:48,133 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:49:48,769 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:48,771 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:48,792 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:48,799 - INFO - Payload sent to honeypot from 127.0.0.1:56944.
+2024-07-22 19:49:49,683 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:47 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:49,689 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:49,690 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:49:53,570 - INFO - Packet captured - 127.0.0.1:56911 -> 127.0.0.1:8000
+2024-07-22 19:49:53,571 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:49:53,584 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:49:53,587 - INFO - Payload sent to honeypot from 127.0.0.1:56948.
+2024-07-22 19:49:54,386 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:49:52 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:49:54,390 - INFO - Original sender found for identifier 127.0.0.1:56911: ('127.0.0.1', 56911)
+2024-07-22 19:49:54,391 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56911.
+2024-07-22 19:50:03,503 - INFO - Packet captured - 127.0.0.1:56972 -> 127.0.0.1:8000
+2024-07-22 19:50:03,506 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:50:03,529 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:50:03,535 - INFO - Payload sent to honeypot from 127.0.0.1:56973.
+2024-07-22 19:50:04,339 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:02 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:04,345 - INFO - Original sender found for identifier 127.0.0.1:56972: ('127.0.0.1', 56972)
+2024-07-22 19:50:04,347 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56972.
+2024-07-22 19:50:04,356 - INFO - Packet captured - 127.0.0.1:56972 -> 127.0.0.1:8000
+2024-07-22 19:50:04,360 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:50:04,387 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:50:04,394 - INFO - Payload sent to honeypot from 127.0.0.1:56975.
+2024-07-22 19:50:05,192 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:02 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,195 - INFO - Original sender found for identifier 127.0.0.1:56972: ('127.0.0.1', 56972)
+2024-07-22 19:50:05,196 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56972.
+2024-07-22 19:50:05,360 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:05,361 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:05,386 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,401 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 619
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,412 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,414 - INFO - Payload: [{"id":"d1688d63-f9fb-4002-bd9a-9a2cdbe04200","content":"string 1","comments_number":3,"likes_number":5,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"e0b78c64-3168-498f-beb0-8cf41841ee4c","content":"string 2","comments_number":4,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"d95948e5-7770-43f0-b518-8b985e75120f","content":"string 3","comments_number":2,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"24bda0fa-1906-4dfe-b45f-0aab23c2a76f","content":"test 1","comments_number":0,"likes_number":0,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"}]
+2024-07-22 19:50:05,430 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:05,432 - INFO - Payload: GET /api/posts/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:05,463 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,465 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 619
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,473 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,475 - INFO - Payload: [{"id":"d1688d63-f9fb-4002-bd9a-9a2cdbe04200","content":"string 1","comments_number":3,"likes_number":5,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"e0b78c64-3168-498f-beb0-8cf41841ee4c","content":"string 2","comments_number":4,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"d95948e5-7770-43f0-b518-8b985e75120f","content":"string 3","comments_number":2,"likes_number":1,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"},{"id":"24bda0fa-1906-4dfe-b45f-0aab23c2a76f","content":"test 1","comments_number":0,"likes_number":0,"author_id":"e34b4292-aa93-46b3-970b-a4bca69f20d2"}]
+2024-07-22 19:50:05,482 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:05,483 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:05,516 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,517 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,525 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,527 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:05,532 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:05,532 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:05,555 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,557 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,564 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,565 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:05,570 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:05,573 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:05,600 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:05,601 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:05,614 - INFO - Packet captured - 127.0.0.1:56972 -> 127.0.0.1:8000
+2024-07-22 19:50:05,615 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:50:05,627 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:50:05,630 - INFO - Payload sent to honeypot from 127.0.0.1:56996.
+2024-07-22 19:50:06,332 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,336 - INFO - Original sender found for identifier 127.0.0.1:56972: ('127.0.0.1', 56972)
+2024-07-22 19:50:06,337 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56972.
+2024-07-22 19:50:06,384 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:06,385 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:05 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:06,401 - INFO - Packet captured - 127.0.0.1:56995 -> 127.0.0.1:8000
+2024-07-22 19:50:06,402 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:06,433 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,434 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:06 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,447 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,448 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:06,451 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:06,452 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:06,499 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:06,500 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:06 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,507 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:06,507 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:06,510 - INFO - Packet captured - 127.0.0.1:56995 -> 127.0.0.1:8000
+2024-07-22 19:50:06,512 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:06,540 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,541 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:06 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,549 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,550 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:06,553 - INFO - Packet captured - 127.0.0.1:56974 -> 127.0.0.1:8000
+2024-07-22 19:50:06,555 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:06,578 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:06,579 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:06 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,585 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56974
+2024-07-22 19:50:06,586 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:06,590 - INFO - Packet captured - 127.0.0.1:56995 -> 127.0.0.1:8000
+2024-07-22 19:50:06,591 - INFO - Payload: GET /api/users/e34b4292-aa93-46b3-970b-a4bca69f20d2 HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Bearer dasd12-dasdasd-123123
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+
+2024-07-22 19:50:06,626 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,627 - INFO - Payload: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:06 GMT
+server: uvicorn
+content-length: 169
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:06,635 - INFO - Packet captured - 127.0.0.1:8000 -> 127.0.0.1:56995
+2024-07-22 19:50:06,636 - INFO - Payload: {"id":"e34b4292-aa93-46b3-970b-a4bca69f20d2","username":"eido321","email":"eido2488@gmail.com","password":"$2b$12$rlyEmwY8S.GFZ8Wl6K9GjOO1oC9pInVr62gdgdG1RvqwoB2eBPs2u"}
+2024-07-22 19:50:08,010 - INFO - Packet captured - 127.0.0.1:56972 -> 127.0.0.1:8000
+2024-07-22 19:50:08,012 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:50:08,034 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:50:08,046 - INFO - Payload sent to honeypot from 127.0.0.1:57004.
+2024-07-22 19:50:08,855 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:07 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:08,858 - INFO - Original sender found for identifier 127.0.0.1:56972: ('127.0.0.1', 56972)
+2024-07-22 19:50:08,859 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56972.
+2024-07-22 19:50:12,811 - INFO - Packet captured - 127.0.0.1:56972 -> 127.0.0.1:8000
+2024-07-22 19:50:12,812 - INFO - Payload: POST /api/users/login/ HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 46
+sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:5173
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,he;q=0.8
+
+{"username":"eido321--","password":"QQaazz11"}
+2024-07-22 19:50:12,823 - INFO - SQL injection detected. Forwarding to honeypot server.
+2024-07-22 19:50:12,826 - INFO - Payload sent to honeypot from 127.0.0.1:57007.
+2024-07-22 19:50:13,381 - INFO - Received response from honeypot: HTTP/1.1 200 OK
+date: Mon, 22 Jul 2024 16:50:12 GMT
+server: uvicorn
+content-length: 232
+content-type: application/json
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+
+2024-07-22 19:50:13,387 - INFO - Original sender found for identifier 127.0.0.1:56972: ('127.0.0.1', 56972)
+2024-07-22 19:50:13,388 - INFO - Response sent back to frontend for identifier: 127.0.0.1:56972.
