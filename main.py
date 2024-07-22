@@ -10,7 +10,6 @@ from thread_safe_dict import ThreadSafeDict
 from HoneyPotAnalyze.AttackerLogger import AttackerLogger
 from Attacks.Sql_Injection import check_sql_injection
 from Attacks.Dos_attack import is_blacklisted, detect_syn_flood
-from logger_config import CustomLogger  
 
 # Flask and SocketIO setup
 app = Flask(__name__)
@@ -20,8 +19,23 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket c
 original_senders = ThreadSafeDict()
 honeypot_logger = AttackerLogger()
 
-# Initialize custom logger
-logger = CustomLogger().get_logger()
+# Initialize logging to console and logs.txt file
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+# Create handlers
+console_handler = logging.StreamHandler()
+file_handler = logging.FileHandler('logs.txt')
+
+# Set logging format
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
+
+# Add handlers to the logger
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+
 @socketio.on('connect')
 def handle_connect():
     logging.info('Client connected')
@@ -56,7 +70,7 @@ def send_response_to_original_sender(identifier, response):
             logging.error(f"No original sender found for identifier: {identifier}")
             return
         
-        socketio.emit('response', {'data': response.decode('utf-8')}, broadcast=True)
+        socketio.emit('response', {'data': response.decode('utf-8')}, namespace='/')
         logging.info(f"Response sent back to frontend for identifier: {identifier}.")
     except (socket.error, socket.timeout) as e:
         logging.error(f"Failed to send response to original sender: {e}")
@@ -99,7 +113,7 @@ def listen_on_port_8000():
             logging.info("Listening on port 8000 and forwarding packets...")
             for packet in w:
                 process_packet(packet, w)
-    except pydivert.WinDivertError as e:
+    except Exception as e:
         logging.error(f"An error occurred in listen_on_port_8000: {e}")
 
 if __name__ == "__main__":
