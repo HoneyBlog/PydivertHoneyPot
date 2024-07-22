@@ -1,7 +1,7 @@
 import logging
 
 class CustomLogger:
-    def __init__(self, name='CustomLogger', log_file='logs.txt', level=logging.INFO):
+    def __init__(self, name='CustomLogger', log_file='./files/logs.txt', level=logging.INFO):
         self.logger = logging.getLogger(name)
         self.logger.setLevel(level)
 

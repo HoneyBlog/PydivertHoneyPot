@@ -9,9 +9,9 @@ from flask_socketio import SocketIO, emit
 from utils.thread_safe_dict import ThreadSafeDict
 from utils.attacks_logger import AttacksLogger
 from utils.ip_detection import IPDetection
-from utils.logger_config import CustomLogger
 from rec_attacks.sql_Injection import check_sql_injection
 from rec_attacks.dos_attack import is_blacklisted, detect_syn_flood
+from utils.logger_config import CustomLogger
 
 assetlist = IPDetection('whitelist.txt')
 honeypot_list  = IPDetection('honeypot_list.txt')
@@ -47,56 +47,56 @@ def send_to_honeypot(payload, connection_id):
             if isinstance(payload, str):
                 payload = payload.encode('utf-8')
             sock.sendall(payload)
-            logging.info(f"Payload sent to honeypot from {src_ip}:{src_port}.")
+            logger.info(f"Payload sent to honeypot from {src_ip}:{src_port}.")
             
             response = sock.recv(1024)
-            logging.info(f"Received response from honeypot: {response.decode('utf-8')}")
+            logger.info(f"Received response from honeypot: {response.decode('utf-8')}")
             send_response_to_original_sender(connection_id, response)
     except (socket.error, socket.timeout) as e:
-        logging.error(f"Failed to send payload to honeypot server: {e}")
+        logger.error(f"Failed to send payload to honeypot server: {e}")
 
 def send_response_to_original_sender(identifier, response):
     """Send response back to the original client."""
     try:
         original_address = original_senders.get(identifier)
-        logging.info(f"Original sender found for identifier {identifier}: {original_address}")
+        logger.info(f"Original sender found for identifier {identifier}: {original_address}")
         if not original_address:
             logging.error(f"No original sender found for identifier: {identifier}")
             return
         
         socketio.emit('response', {'data': response.decode('utf-8')}, broadcast=True)
-        logging.info(f"Response sent back to frontend for identifier: {identifier}.")
+        logger.info(f"Response sent back to frontend for identifier: {identifier}.")
     except (socket.error, socket.timeout) as e:
-        logging.error(f"Failed to send response to original sender: {e}")
+        logger.error(f"Failed to send response to original sender: {e}")
 
 def process_packet(packet, w):
     """Process a captured packet."""
     src_ip = packet.src_addr
 
     if is_blacklisted(src_ip):
-        logging.info(f"Dropping packet from blacklisted IP {src_ip}")
+        logger.info(f"Dropping packet from blacklisted IP {src_ip}")
         return   
 
     if packet.tcp and packet.tcp.syn:
         if detect_syn_flood(src_ip, time()):
-            logging.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
+            logger.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
             honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SYN Flood", payload_str)
             return
 
     payload = packet.tcp.payload
     if payload:
         payload_str = payload.decode(errors="ignore")
-        logging.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
-        logging.info(f"Payload: {payload_str}")
+        logger.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
+        logger.info(f"Payload: {payload_str}")
 
         if honeypot_list.is_in_list(src_ip) or check_sql_injection(payload_str):
             if check_sql_injection(payload_str):
-                logging.info("SQL injection detected. Forwarding to honeypot server.")
+                logger.info("SQL injection detected. Forwarding to honeypot server.")
                 honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
                 if (src_ip not in honeypot_list):
                     honeypot_list.add_ip_to_list(src_ip)
             else:
-                logging.info("Honepot IP detected. Forwarding to honeypot server.")
+                logger.info("Honepot IP detected. Forwarding to honeypot server.")
             connection_id = f"{packet.src_addr}:{packet.src_port}"
             original_senders.set(connection_id, (packet.src_addr, packet.src_port))
             send_to_honeypot(payload, connection_id)
@@ -110,11 +110,11 @@ def listen_on_port_8000():
     filter_str = "tcp.DstPort == 8000 or tcp.SrcPort == 8000"
     try:
         with pydivert.WinDivert(filter_str) as w:
-            logging.info("Listening on port 8000 and forwarding packets...")
+            logger.info("Listening on port 8000 and forwarding packets...")
             for packet in w:
                 process_packet(packet, w)
-    except pydivert.WinDivertError as e:
-        logging.error(f"An error occurred in listen_on_port_8000: {e}")
+    except Exception as e:
+        logger.error(f"An error occurred in listen_on_port_8000: {e}")
 
 if __name__ == "__main__":
     threading.Thread(target=listen_on_port_8000, daemon=True).start()
