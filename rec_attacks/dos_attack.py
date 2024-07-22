@@ -1,6 +1,6 @@
 import logging
 from collections import defaultdict
-from HoneyPotAnalyze.ip_detection import IPDetection
+from utils.ip_detection import IPDetection
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 blocked_file = "blocked_ips.txt"

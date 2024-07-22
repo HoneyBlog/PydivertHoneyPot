@@ -6,12 +6,12 @@ from time import time
 from flask import Flask
 from flask_socketio import SocketIO, emit
 
-from thread_safe_dict import ThreadSafeDict
-from HoneyPotAnalyze.AttackerLogger import AttackerLogger
-from HoneyPotAnalyze.ip_detection import IPDetection
-from Attacks.Sql_Injection import check_sql_injection
-from Attacks.Dos_attack import is_blacklisted, detect_syn_flood
-from logger_config import CustomLogger
+from utils.thread_safe_dict import ThreadSafeDict
+from utils.attacks_logger import AttacksLogger
+from utils.ip_detection import IPDetection
+from utils.logger_config import CustomLogger
+from rec_attacks.sql_Injection import check_sql_injection
+from rec_attacks.dos_attack import is_blacklisted, detect_syn_flood
 
 assetlist = IPDetection('whitelist.txt')
 honeypot_list  = IPDetection('honeypot_list.txt')
@@ -22,7 +22,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket c
 
 # Initialize the dictionary for storing original senders and the honeypot logger
 original_senders = ThreadSafeDict()
-honeypot_logger = AttackerLogger()
+honeypot_logger = AttacksLogger()
 
 # Initialize custom logger
 logger = CustomLogger().get_logger()
