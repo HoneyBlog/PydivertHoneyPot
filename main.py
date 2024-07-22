@@ -6,10 +6,15 @@ from time import time
 from flask import Flask
 from flask_socketio import SocketIO, emit
 
-from thread_safe_dict import ThreadSafeDict
-from HoneyPotAnalyze.AttackerLogger import AttackerLogger
-from Attacks.Sql_Injection import check_sql_injection
-from Attacks.Dos_attack import is_blacklisted, detect_syn_flood
+from utils.thread_safe_dict import ThreadSafeDict
+from utils.attacks_logger import AttacksLogger
+from utils.ip_detection import IPDetection
+from utils.logger_config import CustomLogger
+from rec_attacks.sql_Injection import check_sql_injection
+from rec_attacks.dos_attack import is_blacklisted, detect_syn_flood
+
+assetlist = IPDetection('whitelist.txt')
+honeypot_list  = IPDetection('honeypot_list.txt')
 
 # Flask and SocketIO setup
 app = Flask(__name__)
@@ -17,25 +22,12 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for WebSocket c
 
 # Initialize the dictionary for storing original senders and the honeypot logger
 original_senders = ThreadSafeDict()
-honeypot_logger = AttackerLogger()
+honeypot_logger = AttacksLogger()
 
-# Initialize logging to console and logs.txt file
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
+# Initialize custom logger
+logger = CustomLogger().get_logger()
 
-# Create handlers
-console_handler = logging.StreamHandler()
-file_handler = logging.FileHandler('logs.txt')
-
-# Set logging format
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-console_handler.setFormatter(formatter)
-file_handler.setFormatter(formatter)
-
-# Add handlers to the logger
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
-
+# Initialize websockets
 @socketio.on('connect')
 def handle_connect():
     logging.info('Client connected')
@@ -44,6 +36,8 @@ def handle_connect():
 def handle_disconnect():
     logging.info('Client disconnected')
 
+
+# Pydivert functions
 def send_to_honeypot(payload, connection_id):
     """Send payload to the honeypot server and handle the response."""
     try:
@@ -70,7 +64,7 @@ def send_response_to_original_sender(identifier, response):
             logging.error(f"No original sender found for identifier: {identifier}")
             return
         
-        socketio.emit('response', {'data': response.decode('utf-8')}, namespace='/')
+        socketio.emit('response', {'data': response.decode('utf-8')}, broadcast=True)
         logging.info(f"Response sent back to frontend for identifier: {identifier}.")
     except (socket.error, socket.timeout) as e:
         logging.error(f"Failed to send response to original sender: {e}")
@@ -81,11 +75,12 @@ def process_packet(packet, w):
 
     if is_blacklisted(src_ip):
         logging.info(f"Dropping packet from blacklisted IP {src_ip}")
-        return
+        return   
 
     if packet.tcp and packet.tcp.syn:
         if detect_syn_flood(src_ip, time()):
             logging.warning(f"SYN flood attack detected from {src_ip}. Dropping packet.")
+            honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SYN Flood", payload_str)
             return
 
     payload = packet.tcp.payload
@@ -94,11 +89,16 @@ def process_packet(packet, w):
         logging.info(f"Packet captured - {packet.src_addr}:{packet.src_port} -> {packet.dst_addr}:{packet.dst_port}")
         logging.info(f"Payload: {payload_str}")
 
-        if check_sql_injection(payload_str):
-            logging.info("SQL injection detected. Forwarding to honeypot server.")
+        if honeypot_list.is_in_list(src_ip) or check_sql_injection(payload_str):
+            if check_sql_injection(payload_str):
+                logging.info("SQL injection detected. Forwarding to honeypot server.")
+                honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
+                if (src_ip not in honeypot_list):
+                    honeypot_list.add_ip_to_list(src_ip)
+            else:
+                logging.info("Honepot IP detected. Forwarding to honeypot server.")
             connection_id = f"{packet.src_addr}:{packet.src_port}"
             original_senders.set(connection_id, (packet.src_addr, packet.src_port))
-            honeypot_logger.log_attacker_info(packet.src_addr, packet.src_port, "SQL Injection", payload_str)
             send_to_honeypot(payload, connection_id)
         else:
             w.send(packet)
@@ -113,7 +113,7 @@ def listen_on_port_8000():
             logging.info("Listening on port 8000 and forwarding packets...")
             for packet in w:
                 process_packet(packet, w)
-    except Exception as e:
+    except pydivert.WinDivertError as e:
         logging.error(f"An error occurred in listen_on_port_8000: {e}")
 
 if __name__ == "__main__":

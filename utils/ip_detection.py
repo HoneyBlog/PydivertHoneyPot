@@ -2,7 +2,7 @@ import logging
 
 class IPDetection:
     def __init__(self, ip_list):
-        self.ip_list = ip_list
+        self.ip_list = "../files/" + ip_list
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     def is_in_list(self, ip):

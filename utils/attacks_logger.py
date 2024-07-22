@@ -2,8 +2,8 @@ import csv
 from datetime import datetime
 import geoip2.database
 
-class AttackerLogger:
-    def __init__(self, log_file='hp_analysis.csv'):
+class AttacksLogger:
+    def __init__(self, log_file='../files/hp_analysis.csv'):
         self.log_file = log_file
 
     def get_geo_location(self, ip_address):
